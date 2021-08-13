@@ -1,0 +1,1329 @@
+<!--
+@license
+Copyright 2018 The TensorFlow Authors. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<link rel="import" href="../tf-imports/polymer.html" />
+<link rel="import" href="wit-dashboard.html" />
+<script src="tf.min.js"></script>
+<dom-module id="wit-demo">
+  <template>
+    <style>
+      :host {
+        width: 100%;
+        display: block;
+      }
+      #dash {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <wit-dashboard
+      id="dash"
+      local="true"
+      label-vocab="[[labelVocab]]"
+      model-name="demo"
+      inference-address="demo"
+    >
+    </wit-dashboard>
+  </template>
+  <script>
+    Polymer({
+      is: 'wit-demo',
+      properties: {
+        model: Object,
+        data: Array,
+        indicesToInfer: {type: Object, value: () => ({})},
+        means: Object,
+        categories: Object,
+        labelVocab: {type: Array, value: ['0', '1']},
+      },
+      ready: async function() {
+        this.$.dash.modelName = '1';
+        this.$.dash.inferenceAddress = 'demo1';
+        this.$.dash.updateNumberOfModels();
+        this.means = {
+            'AGE': 64.154,
+            'HR_MIN_DAY1': 72.23118986000001,
+            'HR_MAX_DAY1': 103.90555392200005,
+            'HR_MEAN_DAY1': 86.99424660399995,
+            'SYS_BP_MIN_DAY1': 92.48786104399991,
+            'SYS_BP_MAX_DAY1': 149.19722929800008,
+            'SYS_BP_MEAN_DAY1': 120.03963721000005,
+            'DIAS_BP_MIN_DAY1': 43.270119269999995,
+            'DIAS_BP_MAX_DAY1': 83.805585102,
+            'DIAS_BP_MEAN_DAY1': 59.487840856,
+            'MEAN_BP_MIN_DAY1': 58.65519031400001,
+            'MEAN_BP_MAX_DAY1': 104.79113899200004,
+            'MEAN_BP_MEAN_DAY1': 77.22629582800003,
+            'RESP_RATE_MIN_DAY1': 12.710213132399993,
+            'RESP_RATE_MAX_DAY1': 27.317048957999997,
+            'RESP_RATE_MEAN_DAY1': 18.902357167000012,
+            'TEMP_MIN_DAY1': 36.00942595000002,
+            'TEMP_MAX_DAY1': 37.58243782199998,
+            'TEMP_MEAN_DAY1': 36.89523438800001,
+            'SPO2_MIN_DAY1': 92.27353655200005,
+            'SPO2_MAX_DAY1': 99.718520896,
+            'SPO2_MEAN_DAY1': 97.31073604599997,
+            'GLUCOSE_MIN_DAY1': 114.75336873999998,
+            'GLUCOSE_MAX_DAY1': 178.42252732400001,
+            'GLUCOSE_MEAN_DAY1': 140.14523308799986,
+            'HR_MIN_DAY2': 73.87669245000008,
+            'HR_MAX_DAY2': 99.7492342620001,
+            'HR_MEAN_DAY2': 86.53877263399998,
+            'SYS_BP_MIN_DAY2': 96.13944143999996,
+            'SYS_BP_MAX_DAY2': 147.73810987999994,
+            'SYS_BP_MEAN_DAY2': 120.768748058,
+            'DIAS_BP_MIN_DAY2': 44.70161034800001,
+            'DIAS_BP_MAX_DAY2': 78.36649586999992,
+            'DIAS_BP_MEAN_DAY2': 60.66993138999997,
+            'MEAN_BP_MIN_DAY2': 61.199464688000006,
+            'MEAN_BP_MAX_DAY2': 100.878325506,
+            'MEAN_BP_MEAN_DAY2': 78.36299071400002,
+            'RESP_RATE_MIN_DAY2': 13.608906059000013,
+            'RESP_RATE_MAX_DAY2': 27.413615007999976,
+            'RESP_RATE_MEAN_DAY2': 19.86835967200001,
+            'TEMP_MIN_DAY2': 36.45962479999998,
+            'TEMP_MAX_DAY2': 37.54881665599999,
+            'TEMP_MEAN_DAY2': 37.04574407200003,
+            'SPO2_MIN_DAY2': 93.38509813800007,
+            'SPO2_MAX_DAY2': 99.17917847400011,
+            'SPO2_MEAN_DAY2': 97.41411754600009,
+            'GLUCOSE_MIN_DAY2': 107.091031396,
+            'GLUCOSE_MAX_DAY2': 162.35090347200008,
+            'GLUCOSE_MEAN_DAY2': 132.231591302,
+            'Tuberculosis': 0.0,
+            'Immuniz/scrn': 0.0,
+            'AcuteMI': 0.04,
+            'Coronathero': 0.228,
+            'Chestpain': 0.0,
+            'Pulmhartdx': 0.002,
+            'Othheartdx': 0.0,
+            'Conduction': 0.012,
+            'Dysrhythmia': 0.316,
+            'Cardiaarrst': 0.002,
+            'chf;nonhp': 0.234,
+            'AcuteCVD': 0.068,
+            'Hd/nckcancr': 0.0,
+            'Precereoccl': 0.0,
+            'OtherCVD': 0.0,
+            'TIA': 0.0,
+            'LateeffCVD': 0.0,
+            'Peripathero': 0.014,
+            'Aneurysm': 0.004,
+            'Artembolism': 0.0,
+            'Otcirculdx': 0.028,
+            'Phlebitis': 0.016,
+            'Varicosevn': 0.0,
+            'Esophcancer': 0.0,
+            'Hemmorhoids': 0.0,
+            'Othveindx': 0.0,
+            'Pneumonia': 0.128,
+            'Influenza': 0.0,
+            'Tonsillitis': 0.0,
+            'Bronchitis': 0.0,
+            'Otuprspin': 0.0,
+            'COPD': 0.134,
+            'Asthma': 0.004,
+            'Asppneumon': 0.036,
+            'Stomchcancr': 0.0,
+            'Pleurisy': 0.05,
+            'Adltrespfl': 0.244,
+            'Lungexternl': 0.0,
+            'Othlowresp': 0.016,
+            'Otupprresp': 0.0,
+            'Intestinfct': 0.002,
+            'Teethdx': 0.0,
+            'Mouthdx': 0.0,
+            'Esophgealdx': 0.082,
+            'Gasduoulcer': 0.0,
+            'Coloncancer': 0.0,
+            'Gastritis': 0.0,
+            'Otdxstomch': 0.0,
+            'Appendicitis': 0.0,
+            'Abdomhernia': 0.0,
+            'Ulceratcol': 0.0,
+            'Intobstruct': 0.0,
+            'Diverticulos': 0.0,
+            'Anal/rectal': 0.0,
+            'Peritonitis': 0.0,
+            'Biliarydx': 0.002,
+            'Rctm/anusca': 0.0,
+            'Othliverdx': 0.07,
+            'Pancreasdx': 0.0,
+            'GIhemorrhag': 0.024,
+            'Gastroent': 0.0,
+            'OtherGIdx': 0.034,
+            'Nephritis': 0.0,
+            'Acrenlfail': 0.216,
+            'Chrrenfail': 0.054,
+            'UTI': 0.086,
+            'Liver/ibdca': 0.0,
+            'Urinstone': 0.0,
+            'Otdxkidney': 0.0,
+            'Otdxbladdr': 0.0,
+            'OtherGUdx': 0.006,
+            'BPH': 0.0,
+            'Infmalegen': 0.0,
+            'Othmalegen': 0.0,
+            'Breastdx': 0.0,
+            'PID': 0.0,
+            'Endometrios': 0.0,
+            'Pancreascan': 0.0,
+            'Prolapse': 0.0,
+            'Menstrualdx': 0.0,
+            'Ovariancyst': 0.0,
+            'Menopausldx': 0.0,
+            'Feminfertil': 0.0,
+            'Otfemalgen': 0.0,
+            'Contraceptiv': 0.0,
+            'Spontabortn': 0.0,
+            'Inducabortn': 0.0,
+            'Abortcompl': 0.0,
+            'GI/peritcan': 0.0,
+            'Ectopicpreg': 0.0,
+            'Otpregcomp': 0.0,
+            'Hemorrpreg': 0.0,
+            'HTNinpreg': 0.0,
+            'Earlylabor': 0.0,
+            'Longpregncy': 0.0,
+            'DMinpreg': 0.0,
+            'Malposition': 0.0,
+            'Pelvicobstr': 0.0,
+            'Prevc-sectn': 0.0,
+            'Brnch/lngca': 0.0,
+            'Fetaldistrs': 0.0,
+            'Amniosdx': 0.0,
+            'Umbilcord': 0.0,
+            'OB-relatedperintrauma': 0.0,
+            'Otcomplbir': 0.0,
+            'Nmlpreg/del': 0.0,
+            'Skininfectn': 0.002,
+            'Otinflskin': 0.0,
+            'Ulcerskin': 0.01,
+            'Septicemia': 0.156,
+            'Otrespirca': 0.0,
+            'Othskindx': 0.0,
+            'Infectarth': 0.0,
+            'Rheumarth': 0.0,
+            'Osteoarthros': 0.0,
+            'Otjointdx': 0.0,
+            'Backproblem': 0.002,
+            'Osteoporosis': 0.0,
+            'Pathologfx': 0.0,
+            'Acqfootdef': 0.0,
+            'Otacqdefor': 0.0,
+            'Bone/ctcncr': 0.0,
+            'SLE': 0.0,
+            'Otconntiss': 0.034,
+            'Otbonedx': 0.0,
+            'Cardiacanom': 0.0,
+            'GIconganom': 0.0,
+            'guconganom': 0.0,
+            'Nervcongan': 0.0,
+            'Otconganom': 0.0,
+            'Liveborn': 0.0,
+            'Lowbirthwt': 0.0,
+            'Skinmelanom': 0.0,
+            'Birthasphyx': 0.0,
+            'Respdistres': 0.0,
+            'Perintjaund': 0.0,
+            'Birthtrauma': 0.0,
+            'Otperintdx': 0.0,
+            'Jointinjury': 0.0,
+            'Fxhip': 0.0,
+            'Spincorinj': 0.0,
+            'Fxskullfac': 0.0,
+            'Fxarm': 0.0,
+            'Non-epithca': 0.0,
+            'Fxleg': 0.0,
+            'Othfracture': 0.012,
+            'Sprain': 0.0,
+            'Intracrninj': 0.032,
+            'Crushinjury': 0.006,
+            'Opnwndhead': 0.0,
+            'Opnwndextr': 0.0,
+            'Complicdevi': 0.054,
+            'Complicproc': 0.204,
+            'Superficinj': 0.0,
+            'Breastcancr': 0.0,
+            'Burns': 0.0,
+            'Poisonpsych': 0.0,
+            'Poisnotmed': 0.0,
+            'Poisnnonmed': 0.0,
+            'Otherinjury': 0.152,
+            'Syncope': 0.0,
+            'FUO': 0.0,
+            'Lymphenlarg': 0.0,
+            'Gangrene': 0.0,
+            'Shock': 0.024,
+            'Uteruscancr': 0.0,
+            'Nausea/vomit': 0.0,
+            'Abdomnlpain': 0.0,
+            'Fatigue': 0.0,
+            'Allergy': 0.0,
+            'Socialadmin': 0.0,
+            'Exam/eval': 0.0,
+            'Otaftercare': 0.126,
+            'Otherscreen': 0.0,
+            'Unclassified': 0.156,
+            'Cervixcancr': 0.0,
+            'ECodes:Cut/pierce': 0.0,
+            'ECodes:Drowning/submersion': 0.0,
+            'ECodes:Fall': 0.052,
+            'ECodes:Fire/burn': 0.0,
+            'ECodes:Firearm': 0.0,
+            'ECodes:Machinery': 0.0,
+            'ecodes:motorvehicletraffic(mvt)': 0.004,
+            'ECodes:Pedalcyclist-notMVT': 0.0,
+            'ECodes:Pedestrian-notMVT': 0.0,
+            'ecodes:transport-notmvt': 0.0,
+            'ECodes:Natural/environment': 0.0,
+            'ECodes:Overexertion': 0.0,
+            'ECodes:Poisoning': 0.0,
+            'ECodes:Struckby-against': 0.0,
+            'ECodes:Suffocation': 0.0,
+            'ECodes:Adverseeffectsofmedicalcare': 0.1,
+            'ECodes:Adverseeffectsofmedicaldrugs': 0.016,
+            'ECodes:Otherspecifiedandclassifiable': 0.0,
+            'ecodes:otherspecified-nec': 0.0,
+            'ECodes:Unspecified': 0.0,
+            'ECodes:Placeofoccurrence': 0.0,
+            'Ovarycancer': 0.0,
+            'Femgenitca': 0.0,
+            'Prostatecan': 0.002,
+            'Othbactinf': 0.034,
+            'Testiscancr': 0.0,
+            'Malgenitca': 0.0,
+            'Bladdercncr': 0.0,
+            'Kidny/rnlca': 0.0,
+            'Urinyorgca': 0.0,
+            'Brain/nscan': 0.0,
+            'Thyroidcncr': 0.0,
+            'Hodgkin-sds': 0.0,
+            'Non-Hodglym': 0.0,
+            'Leukemias': 0.0,
+            'Mycoses': 0.0,
+            'Multmyeloma': 0.0,
+            'Otprimryca': 0.0,
+            '2ndarymalig': 0.014,
+            'Maligneopls': 0.0,
+            'Neoplsmunsp': 0.0,
+            'Maintchem/r': 0.0,
+            'Bnignutneo': 0.0,
+            'Otbnignneo': 0.0,
+            'Thyroiddsor': 0.054,
+            'DiabMelnoc': 0.148,
+            'HIVinfectn': 0.0,
+            'DiabMelw/cm': 0.036,
+            'Otendodsor': 0.0,
+            'Nutritdefic': 0.01,
+            'Hyperlipidem': 0.198,
+            'Gout/otcrys': 0.0,
+            'Fluid/elcdx': 0.254,
+            'Cysticfibro': 0.0,
+            'Immunitydx': 0.0,
+            'Otnutritdx': 0.064,
+            'Anemia': 0.222,
+            'Hepatitis': 0.008,
+            'Acutp-hanm': 0.072,
+            'Sicklecell': 0.0,
+            'Coag/hemrdx': 0.064,
+            'Whtblooddx': 0.0,
+            'Othematldx': 0.0,
+            'Adjustmentdisorders': 0.0,
+            'Anxietydisorders': 0.002,
+            'Attention-deficit/conduct/disruptivebeha': 0.0,
+            'Delirium/dementia/amnestic/othercognitiv': 0.016,
+            'Developmentaldisorders': 0.0,
+            'Disordersusuallydiagnosedininfancy/ch': 0.0,
+            'ImpulsecontroldisordersNEC': 0.0,
+            'Mooddisorders': 0.034,
+            'Personalitydisorders': 0.0,
+            'Schizophreniaandotherpsychoticdisorde': 0.0,
+            'Alcohol-relateddisorders': 0.014,
+            'Substance-relateddisorders': 0.004,
+            'Suicideandintentionalself-inflictedin': 0.0,
+            'Screeningandhistoryofmentalhealthan': 0.082,
+            'Miscellaneousmentaldisorders': 0.0,
+            'Viralinfect': 0.0,
+            'Meningitis': 0.0,
+            'Encephalitis': 0.0,
+            'OthCNSinfx': 0.0,
+            'Parkinson-s': 0.0,
+            'Othinfectns': 0.0,
+            'MS': 0.0,
+            'OtheredCNS': 0.0,
+            'Paralysis': 0.0,
+            'Epilepsy/cnv': 0.008,
+            'Headache/mig': 0.0,
+            'Coma/brndmg': 0.0,
+            'Cataract': 0.0,
+            'Retinaldx': 0.0,
+            'Glaucoma': 0.0,
+            'Blindness': 0.0,
+            'SexualInfxs': 0.0,
+            'Eyeinfectn': 0.0,
+            'Othereyedx': 0.002,
+            'Otitismedia': 0.0,
+            'Dizziness': 0.0,
+            'Othereardx': 0.0,
+            'Othnervdx': 0.168,
+            'Hrtvalvedx': 0.132,
+            'Carditis': 0.018,
+            'HTN': 0.44,
+            'Htncomplicn': 0.058,
+        };
+        this.categories = {};
+        this.categories['GENDER'] = ['F','M',];
+        this.categories['ICU'] = ['CCU','CSRU','MICU','SICU','TSICU',];
+        
+        this.model = await tf.loadLayersModel(
+          tf.io.browserHTTPRequest('data/mortalityPrediction/model.json', {
+            credentials: 'include',
+          })
+        );
+        const DATA_PATH = 'data/mortalityPrediction/Mortality_Prediction_test.json';
+        const testData = d3.json(DATA_PATH).then((data) => {
+          // data = data.slice(0, 500);
+          this.data = data;
+          for (let i = 0; i < data.length; i++) {
+            this.indicesToInfer[i] = true;
+          }
+          this.$.dash.updateExampleContents(
+            data.map((item) => JSON.stringify(item)),
+            false
+          );
+          this.$.dash.addEventListener('update-example', (e) => {
+            this.data[e.detail.index] = JSON.parse(e.detail.example);
+            this.indicesToInfer[e.detail.index] = true;
+          });
+          this.$.dash.addEventListener('duplicate-example', (e) => {
+            this.data.push(
+              JSON.parse(JSON.stringify(this.data[e.detail.index]))
+            );
+            this.indicesToInfer[this.data.length - 1] = true;
+          });
+          this.$.dash.addEventListener('delete-example', (e) => {
+            this.data.splice(e.detail.index, 1);
+            const newIndicesToInfer = {};
+            const oldIndicesToInfer = Object.keys(this.indicesToInfer);
+            for (let i = 0; i < oldIndicesToInfer.length; i++) {
+              const idx = oldIndicesToInfer[i];
+              if (idx < e.detail.index) {
+                newIndicesToInfer[idx] = true;
+              } else {
+                newIndicesToInfer[idx - 1] = true;
+              }
+            }
+            this.indicesToInfer = newIndicesToInfer;
+          });
+          this.$.dash.addEventListener('infer-examples', async (e) => {
+            const inferences = {};
+            const indices = Object.keys(this.indicesToInfer).sort();
+            inferences.indices = indices;
+            inferences.results = [
+              {classificationResult: {classifications: []}},
+            ];
+            const tensorArr = indices.map((idx) =>
+              this.convertExToTensor(this.data[idx])
+            );
+            const tensors = tf.concat(tensorArr);
+            const input = tensors.reshape([indices.length, 337]);
+            const res = this.model.predict(input, {batchSize: 128});
+            const predValues = await res.data();
+            tensors.dispose();
+            tensorArr.forEach((tensor) => tensor.dispose());
+            input.dispose();
+            res.dispose();
+            const PRED_SIZE = 2;
+            for (let i = 0; i < indices.length; i++) {
+              inferences.results[0].classificationResult.classifications[i] = {
+                classes: [
+                  {label: '0', score: predValues[i * PRED_SIZE ]},
+                  {label: '1', score: predValues[i * PRED_SIZE+1]},
+                ],
+              };
+            }
+            this.$.dash.inferences = inferences;
+            this.indicesToInfer = {};
+          });
+          this.$.dash.addEventListener('get-eligible-features', (e) => {
+            this.$.dash.partialDepPlotEligibleFeatures = [
+              {observedMax:90,name:'AGE',observedMin:16},
+              {observedMax:120.34728,name:'HR_MIN_DAY1',observedMin:34.445576},
+              {observedMax:161.18317,name:'HR_MAX_DAY1',observedMin:66.53373},
+              {observedMax:125.92381,name:'HR_MEAN_DAY1',observedMin:51.04613},
+              {observedMax:145.53941,name:'SYS_BP_MIN_DAY1',observedMin:47.80288},
+              {observedMax:244.03935,name:'SYS_BP_MAX_DAY1',observedMin:94.50823},
+              {observedMax:174.62534,name:'SYS_BP_MEAN_DAY1',observedMin:82.35979499999998},
+              {observedMax:82.15574000000002,name:'DIAS_BP_MIN_DAY1',observedMin:18.152624},
+              {observedMax:154.84622,name:'DIAS_BP_MAX_DAY1',observedMin:45.873936},
+              {observedMax:89.298965,name:'DIAS_BP_MEAN_DAY1',observedMin:36.48571},
+              {observedMax:99.16569,name:'MEAN_BP_MIN_DAY1',observedMin:25.383018},
+              {observedMax:192.7544,name:'MEAN_BP_MAX_DAY1',observedMin:60.91182},
+              {observedMax:119.2303,name:'MEAN_BP_MEAN_DAY1',observedMin:55.231564},
+              {observedMax:25.313187,name:'RESP_RATE_MIN_DAY1',observedMin:4.3679233},
+              {observedMax:47.712917,name:'RESP_RATE_MAX_DAY1',observedMin:13.93433},
+              {observedMax:33.41726,name:'RESP_RATE_MEAN_DAY1',observedMin:9.711526},
+              {observedMax:38.26735,name:'TEMP_MIN_DAY1',observedMin:29.492952},
+              {observedMax:39.73221,name:'TEMP_MAX_DAY1',observedMin:35.295288},
+              {observedMax:38.692524,name:'TEMP_MEAN_DAY1',observedMin:34.569202000000004},
+              {observedMax:99.82448,name:'SPO2_MIN_DAY1',observedMin:40.835148},
+              {observedMax:101.07507,name:'SPO2_MAX_DAY1',observedMin:92.284004},
+              {observedMax:100.6187,name:'SPO2_MEAN_DAY1',observedMin:80.603546},
+              {observedMax:245.68297,name:'GLUCOSE_MIN_DAY1',observedMin:40.665478},
+              {observedMax:748.4762,name:'GLUCOSE_MAX_DAY1',observedMin:57.11544},
+              {observedMax:302.801,name:'GLUCOSE_MEAN_DAY1',observedMin:47.277576},
+              {observedMax:116.76752,name:'HR_MIN_DAY2',observedMin:38.977978},
+              {observedMax:149.26456000000005,name:'HR_MAX_DAY2',observedMin:56.5782},
+              {observedMax:126.32516,name:'HR_MEAN_DAY2',observedMin:45.252407},
+              {observedMax:151.56776000000005,name:'SYS_BP_MIN_DAY2',observedMin:44.70362},
+              {observedMax:217.61783,name:'SYS_BP_MAX_DAY2',observedMin:99.04886},
+              {observedMax:170.44875,name:'SYS_BP_MEAN_DAY2',observedMin:82.72851},
+              {observedMax:82.34724399999998,name:'DIAS_BP_MIN_DAY2',observedMin:16.319073},
+              {observedMax:131.80222,name:'DIAS_BP_MAX_DAY2',observedMin:47.80735},
+              {observedMax:90.20872,name:'DIAS_BP_MEAN_DAY2',observedMin:34.399162},
+              {observedMax:96.659805,name:'MEAN_BP_MIN_DAY2',observedMin:32.089752000000004},
+              {observedMax:216.62177000000003,name:'MEAN_BP_MAX_DAY2',observedMin:56.323036},
+              {observedMax:111.72469,name:'MEAN_BP_MEAN_DAY2',observedMin:51.968296},
+              {observedMax:30.350435,name:'RESP_RATE_MIN_DAY2',observedMin:4.560498},
+              {observedMax:47.94696,name:'RESP_RATE_MAX_DAY2',observedMin:12.521414},
+              {observedMax:32.165,name:'RESP_RATE_MEAN_DAY2',observedMin:9.443876},
+              {observedMax:38.56142,name:'TEMP_MIN_DAY2',observedMin:33.41532},
+              {observedMax:39.80699,name:'TEMP_MAX_DAY2',observedMin:35.47189},
+              {observedMax:39.02828,name:'TEMP_MEAN_DAY2',observedMin:34.722496},
+              {observedMax:99.709785,name:'SPO2_MIN_DAY2',observedMin:57.35994300000001},
+              {observedMax:101.78638,name:'SPO2_MAX_DAY2',observedMin:92.64374},
+              {observedMax:100.01082,name:'SPO2_MEAN_DAY2',observedMin:80.97924},
+              {observedMax:222.18767000000003,name:'GLUCOSE_MIN_DAY2',observedMin:44.434944},
+              {observedMax:512.8496,name:'GLUCOSE_MAX_DAY2',observedMin:70.57518},
+              {observedMax:342.79684,name:'GLUCOSE_MEAN_DAY2',observedMin:65.24664},
+              {observedMax:0,name:'Tuberculosis',observedMin:0},
+              {observedMax:0,name:'Immuniz/scrn',observedMin:0},
+              {observedMax:1,name:'AcuteMI',observedMin:0},
+              {observedMax:1,name:'Coronathero',observedMin:0},
+              {observedMax:0,name:'Chestpain',observedMin:0},
+              {observedMax:1,name:'Pulmhartdx',observedMin:0},
+              {observedMax:0,name:'Othheartdx',observedMin:0},
+              {observedMax:1,name:'Conduction',observedMin:0},
+              {observedMax:1,name:'Dysrhythmia',observedMin:0},
+              {observedMax:1,name:'Cardiaarrst',observedMin:0},
+              {observedMax:1,name:'chf;nonhp',observedMin:0},
+              {observedMax:1,name:'AcuteCVD',observedMin:0},
+              {observedMax:0,name:'Hd/nckcancr',observedMin:0},
+              {observedMax:0,name:'Precereoccl',observedMin:0},
+              {observedMax:0,name:'OtherCVD',observedMin:0},
+              {observedMax:0,name:'TIA',observedMin:0},
+              {observedMax:0,name:'LateeffCVD',observedMin:0},
+              {observedMax:1,name:'Peripathero',observedMin:0},
+              {observedMax:1,name:'Aneurysm',observedMin:0},
+              {observedMax:0,name:'Artembolism',observedMin:0},
+              {observedMax:1,name:'Otcirculdx',observedMin:0},
+              {observedMax:1,name:'Phlebitis',observedMin:0},
+              {observedMax:0,name:'Varicosevn',observedMin:0},
+              {observedMax:0,name:'Esophcancer',observedMin:0},
+              {observedMax:0,name:'Hemmorhoids',observedMin:0},
+              {observedMax:0,name:'Othveindx',observedMin:0},
+              {observedMax:1,name:'Pneumonia',observedMin:0},
+              {observedMax:0,name:'Influenza',observedMin:0},
+              {observedMax:0,name:'Tonsillitis',observedMin:0},
+              {observedMax:0,name:'Bronchitis',observedMin:0},
+              {observedMax:0,name:'Otuprspin',observedMin:0},
+              {observedMax:1,name:'COPD',observedMin:0},
+              {observedMax:1,name:'Asthma',observedMin:0},
+              {observedMax:1,name:'Asppneumon',observedMin:0},
+              {observedMax:0,name:'Stomchcancr',observedMin:0},
+              {observedMax:1,name:'Pleurisy',observedMin:0},
+              {observedMax:1,name:'Adltrespfl',observedMin:0},
+              {observedMax:0,name:'Lungexternl',observedMin:0},
+              {observedMax:1,name:'Othlowresp',observedMin:0},
+              {observedMax:0,name:'Otupprresp',observedMin:0},
+              {observedMax:1,name:'Intestinfct',observedMin:0},
+              {observedMax:0,name:'Teethdx',observedMin:0},
+              {observedMax:0,name:'Mouthdx',observedMin:0},
+              {observedMax:1,name:'Esophgealdx',observedMin:0},
+              {observedMax:0,name:'Gasduoulcer',observedMin:0},
+              {observedMax:0,name:'Coloncancer',observedMin:0},
+              {observedMax:0,name:'Gastritis',observedMin:0},
+              {observedMax:0,name:'Otdxstomch',observedMin:0},
+              {observedMax:0,name:'Appendicitis',observedMin:0},
+              {observedMax:0,name:'Abdomhernia',observedMin:0},
+              {observedMax:0,name:'Ulceratcol',observedMin:0},
+              {observedMax:0,name:'Intobstruct',observedMin:0},
+              {observedMax:0,name:'Diverticulos',observedMin:0},
+              {observedMax:0,name:'Anal/rectal',observedMin:0},
+              {observedMax:0,name:'Peritonitis',observedMin:0},
+              {observedMax:1,name:'Biliarydx',observedMin:0},
+              {observedMax:0,name:'Rctm/anusca',observedMin:0},
+              {observedMax:1,name:'Othliverdx',observedMin:0},
+              {observedMax:0,name:'Pancreasdx',observedMin:0},
+              {observedMax:1,name:'GIhemorrhag',observedMin:0},
+              {observedMax:0,name:'Gastroent',observedMin:0},
+              {observedMax:1,name:'OtherGIdx',observedMin:0},
+              {observedMax:0,name:'Nephritis',observedMin:0},
+              {observedMax:1,name:'Acrenlfail',observedMin:0},
+              {observedMax:1,name:'Chrrenfail',observedMin:0},
+              {observedMax:1,name:'UTI',observedMin:0},
+              {observedMax:0,name:'Liver/ibdca',observedMin:0},
+              {observedMax:0,name:'Urinstone',observedMin:0},
+              {observedMax:0,name:'Otdxkidney',observedMin:0},
+              {observedMax:0,name:'Otdxbladdr',observedMin:0},
+              {observedMax:1,name:'OtherGUdx',observedMin:0},
+              {observedMax:0,name:'BPH',observedMin:0},
+              {observedMax:0,name:'Infmalegen',observedMin:0},
+              {observedMax:0,name:'Othmalegen',observedMin:0},
+              {observedMax:0,name:'Breastdx',observedMin:0},
+              {observedMax:0,name:'PID',observedMin:0},
+              {observedMax:0,name:'Endometrios',observedMin:0},
+              {observedMax:0,name:'Pancreascan',observedMin:0},
+              {observedMax:0,name:'Prolapse',observedMin:0},
+              {observedMax:0,name:'Menstrualdx',observedMin:0},
+              {observedMax:0,name:'Ovariancyst',observedMin:0},
+              {observedMax:0,name:'Menopausldx',observedMin:0},
+              {observedMax:0,name:'Feminfertil',observedMin:0},
+              {observedMax:0,name:'Otfemalgen',observedMin:0},
+              {observedMax:0,name:'Contraceptiv',observedMin:0},
+              {observedMax:0,name:'Spontabortn',observedMin:0},
+              {observedMax:0,name:'Inducabortn',observedMin:0},
+              {observedMax:0,name:'Abortcompl',observedMin:0},
+              {observedMax:0,name:'GI/peritcan',observedMin:0},
+              {observedMax:0,name:'Ectopicpreg',observedMin:0},
+              {observedMax:0,name:'Otpregcomp',observedMin:0},
+              {observedMax:0,name:'Hemorrpreg',observedMin:0},
+              {observedMax:0,name:'HTNinpreg',observedMin:0},
+              {observedMax:0,name:'Earlylabor',observedMin:0},
+              {observedMax:0,name:'Longpregncy',observedMin:0},
+              {observedMax:0,name:'DMinpreg',observedMin:0},
+              {observedMax:0,name:'Malposition',observedMin:0},
+              {observedMax:0,name:'Pelvicobstr',observedMin:0},
+              {observedMax:0,name:'Prevc-sectn',observedMin:0},
+              {observedMax:0,name:'Brnch/lngca',observedMin:0},
+              {observedMax:0,name:'Fetaldistrs',observedMin:0},
+              {observedMax:0,name:'Amniosdx',observedMin:0},
+              {observedMax:0,name:'Umbilcord',observedMin:0},
+              {observedMax:0,name:'OB-relatedperintrauma',observedMin:0},
+              {observedMax:0,name:'Otcomplbir',observedMin:0},
+              {observedMax:0,name:'Nmlpreg/del',observedMin:0},
+              {observedMax:1,name:'Skininfectn',observedMin:0},
+              {observedMax:0,name:'Otinflskin',observedMin:0},
+              {observedMax:1,name:'Ulcerskin',observedMin:0},
+              {observedMax:1,name:'Septicemia',observedMin:0},
+              {observedMax:0,name:'Otrespirca',observedMin:0},
+              {observedMax:0,name:'Othskindx',observedMin:0},
+              {observedMax:0,name:'Infectarth',observedMin:0},
+              {observedMax:0,name:'Rheumarth',observedMin:0},
+              {observedMax:0,name:'Osteoarthros',observedMin:0},
+              {observedMax:0,name:'Otjointdx',observedMin:0},
+              {observedMax:1,name:'Backproblem',observedMin:0},
+              {observedMax:0,name:'Osteoporosis',observedMin:0},
+              {observedMax:0,name:'Pathologfx',observedMin:0},
+              {observedMax:0,name:'Acqfootdef',observedMin:0},
+              {observedMax:0,name:'Otacqdefor',observedMin:0},
+              {observedMax:0,name:'Bone/ctcncr',observedMin:0},
+              {observedMax:0,name:'SLE',observedMin:0},
+              {observedMax:1,name:'Otconntiss',observedMin:0},
+              {observedMax:0,name:'Otbonedx',observedMin:0},
+              {observedMax:0,name:'Cardiacanom',observedMin:0},
+              {observedMax:0,name:'GIconganom',observedMin:0},
+              {observedMax:0,name:'guconganom',observedMin:0},
+              {observedMax:0,name:'Nervcongan',observedMin:0},
+              {observedMax:0,name:'Otconganom',observedMin:0},
+              {observedMax:0,name:'Liveborn',observedMin:0},
+              {observedMax:0,name:'Lowbirthwt',observedMin:0},
+              {observedMax:0,name:'Skinmelanom',observedMin:0},
+              {observedMax:0,name:'Birthasphyx',observedMin:0},
+              {observedMax:0,name:'Respdistres',observedMin:0},
+              {observedMax:0,name:'Perintjaund',observedMin:0},
+              {observedMax:0,name:'Birthtrauma',observedMin:0},
+              {observedMax:0,name:'Otperintdx',observedMin:0},
+              {observedMax:0,name:'Jointinjury',observedMin:0},
+              {observedMax:0,name:'Fxhip',observedMin:0},
+              {observedMax:0,name:'Spincorinj',observedMin:0},
+              {observedMax:0,name:'Fxskullfac',observedMin:0},
+              {observedMax:0,name:'Fxarm',observedMin:0},
+              {observedMax:0,name:'Non-epithca',observedMin:0},
+              {observedMax:0,name:'Fxleg',observedMin:0},
+              {observedMax:1,name:'Othfracture',observedMin:0},
+              {observedMax:0,name:'Sprain',observedMin:0},
+              {observedMax:1,name:'Intracrninj',observedMin:0},
+              {observedMax:1,name:'Crushinjury',observedMin:0},
+              {observedMax:0,name:'Opnwndhead',observedMin:0},
+              {observedMax:0,name:'Opnwndextr',observedMin:0},
+              {observedMax:1,name:'Complicdevi',observedMin:0},
+              {observedMax:1,name:'Complicproc',observedMin:0},
+              {observedMax:0,name:'Superficinj',observedMin:0},
+              {observedMax:0,name:'Breastcancr',observedMin:0},
+              {observedMax:0,name:'Burns',observedMin:0},
+              {observedMax:0,name:'Poisonpsych',observedMin:0},
+              {observedMax:0,name:'Poisnotmed',observedMin:0},
+              {observedMax:0,name:'Poisnnonmed',observedMin:0},
+              {observedMax:1,name:'Otherinjury',observedMin:0},
+              {observedMax:0,name:'Syncope',observedMin:0},
+              {observedMax:0,name:'FUO',observedMin:0},
+              {observedMax:0,name:'Lymphenlarg',observedMin:0},
+              {observedMax:0,name:'Gangrene',observedMin:0},
+              {observedMax:1,name:'Shock',observedMin:0},
+              {observedMax:0,name:'Uteruscancr',observedMin:0},
+              {observedMax:0,name:'Nausea/vomit',observedMin:0},
+              {observedMax:0,name:'Abdomnlpain',observedMin:0},
+              {observedMax:0,name:'Fatigue',observedMin:0},
+              {observedMax:0,name:'Allergy',observedMin:0},
+              {observedMax:0,name:'Socialadmin',observedMin:0},
+              {observedMax:0,name:'Exam/eval',observedMin:0},
+              {observedMax:1,name:'Otaftercare',observedMin:0},
+              {observedMax:0,name:'Otherscreen',observedMin:0},
+              {observedMax:1,name:'Unclassified',observedMin:0},
+              {observedMax:0,name:'Cervixcancr',observedMin:0},
+              {observedMax:0,name:'ECodes:Cut/pierce',observedMin:0},
+              {observedMax:0,name:'ECodes:Drowning/submersion',observedMin:0},
+              {observedMax:1,name:'ECodes:Fall',observedMin:0},
+              {observedMax:0,name:'ECodes:Fire/burn',observedMin:0},
+              {observedMax:0,name:'ECodes:Firearm',observedMin:0},
+              {observedMax:0,name:'ECodes:Machinery',observedMin:0},
+              {observedMax:1,name:'ecodes:motorvehicletraffic(mvt)',observedMin:0},
+              {observedMax:0,name:'ECodes:Pedalcyclist-notMVT',observedMin:0},
+              {observedMax:0,name:'ECodes:Pedestrian-notMVT',observedMin:0},
+              {observedMax:0,name:'ecodes:transport-notmvt',observedMin:0},
+              {observedMax:0,name:'ECodes:Natural/environment',observedMin:0},
+              {observedMax:0,name:'ECodes:Overexertion',observedMin:0},
+              {observedMax:0,name:'ECodes:Poisoning',observedMin:0},
+              {observedMax:0,name:'ECodes:Struckby-against',observedMin:0},
+              {observedMax:0,name:'ECodes:Suffocation',observedMin:0},
+              {observedMax:1.0,name:'ECodes:Adverseeffectsofmedicalcare',observedMin:0.0},
+              {observedMax:1,name:'ECodes:Adverseeffectsofmedicaldrugs',observedMin:0},
+              {observedMax:0,name:'ECodes:Otherspecifiedandclassifiable',observedMin:0},
+              {observedMax:0,name:'ecodes:otherspecified-nec',observedMin:0},
+              {observedMax:0,name:'ECodes:Unspecified',observedMin:0},
+              {observedMax:0,name:'ECodes:Placeofoccurrence',observedMin:0},
+              {observedMax:0,name:'Ovarycancer',observedMin:0},
+              {observedMax:0,name:'Femgenitca',observedMin:0},
+              {observedMax:1,name:'Prostatecan',observedMin:0},
+              {observedMax:1,name:'Othbactinf',observedMin:0},
+              {observedMax:0,name:'Testiscancr',observedMin:0},
+              {observedMax:0,name:'Malgenitca',observedMin:0},
+              {observedMax:0,name:'Bladdercncr',observedMin:0},
+              {observedMax:0,name:'Kidny/rnlca',observedMin:0},
+              {observedMax:0,name:'Urinyorgca',observedMin:0},
+              {observedMax:0,name:'Brain/nscan',observedMin:0},
+              {observedMax:0,name:'Thyroidcncr',observedMin:0},
+              {observedMax:0,name:'Hodgkin-sds',observedMin:0},
+              {observedMax:0,name:'Non-Hodglym',observedMin:0},
+              {observedMax:0,name:'Leukemias',observedMin:0},
+              {observedMax:0,name:'Mycoses',observedMin:0},
+              {observedMax:0,name:'Multmyeloma',observedMin:0},
+              {observedMax:0,name:'Otprimryca',observedMin:0},
+              {observedMax:1,name:'2ndarymalig',observedMin:0},
+              {observedMax:0,name:'Maligneopls',observedMin:0},
+              {observedMax:0,name:'Neoplsmunsp',observedMin:0},
+              {observedMax:0,name:'Maintchem/r',observedMin:0},
+              {observedMax:0,name:'Bnignutneo',observedMin:0},
+              {observedMax:0,name:'Otbnignneo',observedMin:0},
+              {observedMax:1,name:'Thyroiddsor',observedMin:0},
+              {observedMax:1,name:'DiabMelnoc',observedMin:0},
+              {observedMax:0,name:'HIVinfectn',observedMin:0},
+              {observedMax:1,name:'DiabMelw/cm',observedMin:0},
+              {observedMax:0,name:'Otendodsor',observedMin:0},
+              {observedMax:1,name:'Nutritdefic',observedMin:0},
+              {observedMax:1,name:'Hyperlipidem',observedMin:0},
+              {observedMax:0,name:'Gout/otcrys',observedMin:0},
+              {observedMax:1,name:'Fluid/elcdx',observedMin:0},
+              {observedMax:0,name:'Cysticfibro',observedMin:0},
+              {observedMax:0,name:'Immunitydx',observedMin:0},
+              {observedMax:1.0,name:'Otnutritdx',observedMin:0.0},
+              {observedMax:1,name:'Anemia',observedMin:0},
+              {observedMax:1,name:'Hepatitis',observedMin:0},
+              {observedMax:1,name:'Acutp-hanm',observedMin:0},
+              {observedMax:0,name:'Sicklecell',observedMin:0},
+              {observedMax:1,name:'Coag/hemrdx',observedMin:0},
+              {observedMax:0,name:'Whtblooddx',observedMin:0},
+              {observedMax:0,name:'Othematldx',observedMin:0},
+              {observedMax:0,name:'Adjustmentdisorders',observedMin:0},
+              {observedMax:1,name:'Anxietydisorders',observedMin:0},
+              {observedMax:0,name:'Attention-deficit/conduct/disruptivebeha',observedMin:0},
+              {observedMax:1,name:'Delirium/dementia/amnestic/othercognitiv',observedMin:0},
+              {observedMax:0,name:'Developmentaldisorders',observedMin:0},
+              {observedMax:0,name:'Disordersusuallydiagnosedininfancy/ch',observedMin:0},
+              {observedMax:0,name:'ImpulsecontroldisordersNEC',observedMin:0},
+              {observedMax:1,name:'Mooddisorders',observedMin:0},
+              {observedMax:0,name:'Personalitydisorders',observedMin:0},
+              {observedMax:0,name:'Schizophreniaandotherpsychoticdisorde',observedMin:0},
+              {observedMax:1,name:'Alcohol-relateddisorders',observedMin:0},
+              {observedMax:1,name:'Substance-relateddisorders',observedMin:0},
+              {observedMax:0,name:'Suicideandintentionalself-inflictedin',observedMin:0},
+              {observedMax:1,name:'Screeningandhistoryofmentalhealthan',observedMin:0},
+              {observedMax:0,name:'Miscellaneousmentaldisorders',observedMin:0},
+              {observedMax:0,name:'Viralinfect',observedMin:0},
+              {observedMax:0,name:'Meningitis',observedMin:0},
+              {observedMax:0,name:'Encephalitis',observedMin:0},
+              {observedMax:0,name:'OthCNSinfx',observedMin:0},
+              {observedMax:0,name:'Parkinson-s',observedMin:0},
+              {observedMax:0,name:'Othinfectns',observedMin:0},
+              {observedMax:0,name:'MS',observedMin:0},
+              {observedMax:0,name:'OtheredCNS',observedMin:0},
+              {observedMax:0,name:'Paralysis',observedMin:0},
+              {observedMax:1,name:'Epilepsy/cnv',observedMin:0},
+              {observedMax:0,name:'Headache/mig',observedMin:0},
+              {observedMax:0,name:'Coma/brndmg',observedMin:0},
+              {observedMax:0,name:'Cataract',observedMin:0},
+              {observedMax:0,name:'Retinaldx',observedMin:0},
+              {observedMax:0,name:'Glaucoma',observedMin:0},
+              {observedMax:0,name:'Blindness',observedMin:0},
+              {observedMax:0,name:'SexualInfxs',observedMin:0},
+              {observedMax:0,name:'Eyeinfectn',observedMin:0},
+              {observedMax:1,name:'Othereyedx',observedMin:0},
+              {observedMax:0,name:'Otitismedia',observedMin:0},
+              {observedMax:0,name:'Dizziness',observedMin:0},
+              {observedMax:0,name:'Othereardx',observedMin:0},
+              {observedMax:1.0,name:'Othnervdx',observedMin:0.0},
+              {observedMax:1,name:'Hrtvalvedx',observedMin:0},
+              {observedMax:1,name:'Carditis',observedMin:0},
+              {observedMax:1,name:'HTN',observedMin:0},
+              {observedMax:1,name:'Htncomplicn',observedMin:0},
+            ];
+          });
+          this.$.dash.addEventListener('infer-mutants', async (e) => {
+            const method = async () => {
+              const data = await this.createPdPlotData(
+                e.detail.feature_name,
+                e.detail.example_index,
+                +e.detail.x_min,
+                +e.detail.x_max
+              );
+              let isNum = false;
+              for (let entry of this.$.dash.partialDepPlotEligibleFeatures) {
+                if (entry.name == e.detail.feature_name && !entry.samples) {
+                  isNum = true;
+                  break;
+                }
+              }
+              this.$.dash.makeChartForFeature(
+                isNum ? 'numeric' : 'categorical',
+                e.detail.feature_name,
+                data
+              );
+            };
+            setTimeout(method, 50);
+          });
+          this.$.dash.addEventListener('sort-eligible-features', async (e) => {
+            const method = async () => {
+              const chartData = {};
+              const list = this.$.dash.partialDepPlotEligibleFeatures;
+              for (let feat of list) {
+                chartData[feat.name] = await this.createPdPlotData(
+                  feat.name,
+                  e.detail.example_index,
+                  +feat.observedMin,
+                  +feat.observedMax
+                );
+              }
+              for (let feat of list) {
+                const charts = chartData[feat.name];
+                let maxMeasure = 0;
+                const isNum = feat.samples == null;
+                for (let models of charts) {
+                  for (let chart of models) {
+                    for (let key in chart) {
+                      const series = chart[key];
+                      let measure = 0;
+                      if (isNum) {
+                        for (let i = 0; i < series.length - 1; i++) {
+                          measure += Math.abs(
+                            series[i].scalar - series[i + 1].scalar
+                          );
+                        }
+                      } else {
+                        let minY = Infinity;
+                        let maxY = -Infinity;
+                        for (let i = 0; i < series.length; i++) {
+                          const val = series[i].scalar;
+                          if (val < minY) {
+                            minY = val;
+                          }
+                          if (val > maxY) {
+                            maxY = val;
+                          }
+                        }
+                        measure = maxY - minY;
+                      }
+                      if (measure > maxMeasure) {
+                        maxMeasure = measure;
+                      }
+                    }
+                  }
+                }
+                feat.interestingness = maxMeasure;
+              }
+              this.$.dash.partialDepPlotEligibleFeatures = [];
+              list.sort((a, b) => b.interestingness - a.interestingness);
+              this.$.dash.partialDepPlotEligibleFeatures = list;
+            };
+            setTimeout(method, 50);
+          });
+          requestAnimationFrame(() => {
+            this.$.dash.inferClicked_();
+            this.$.dash.selectedLabelFeature = 'DIED';
+          });
+        });
+      },
+      createPdPlotData: async function(featureName, exampleIndex, xMin, xMax) {
+        const examples = [];
+        let feat = null;
+        for (let entry of this.$.dash.partialDepPlotEligibleFeatures) {
+          if (entry.name == featureName) {
+            feat = entry;
+            break;
+          }
+        }
+        const isNum = !feat.samples;
+        const numTrials = isNum ? 10 : feat.samples.length;
+        const exampleIndices =
+          exampleIndex == -1
+            ? [...Array(this.data.length).keys()]
+            : [exampleIndex];
+        for (let i = 0; i < numTrials; i++) {
+          for (let idx = 0; idx < exampleIndices.length; idx++) {
+            const ex = JSON.parse(
+              JSON.stringify(this.data[exampleIndices[idx]])
+            );
+            if (isNum) {
+              ex.features.feature[featureName].floatList.value[0] =
+                xMin + i * ((1 / (numTrials - 1)) * (xMax - xMin));
+            } else {
+              ex.features.feature[featureName].bytesList.value[0] = btoa(
+                feat.samples[i]
+              );
+            }
+            examples.push(ex);
+          }
+        }
+        const PRED_SIZE = 2;
+        const BATCH_SIZE = 128;
+        const results = [[],[]];
+        const predValuesList = [];
+        for (let i = 0; i < examples.length; i += BATCH_SIZE) {
+          let tlist = [];
+          for (
+            let idx = i;
+            idx < Math.min(i + BATCH_SIZE, examples.length);
+            idx++
+          ) {
+            tlist.push(this.convertExToTensor(examples[idx]));
+          }
+          const tconcat = tf.concat(tlist);
+          tlist.forEach((tensor) => tensor.dispose());
+          const input = tconcat.reshape([tlist.length, 337]);
+          const res = this.model.predict(input, {batchSize: BATCH_SIZE});
+          const vals = await res.data();
+          predValuesList.push(vals);
+          input.dispose();
+          res.dispose();
+          tconcat.dispose();
+        }
+        const predSize = predValuesList.reduce((a, b) => a + b.length, 0);
+        const predValues = new Float32Array(predSize);
+        let curIdx = 0;
+        for (let i = 0; i < predValuesList.length; i++) {
+          predValues.set(predValuesList[i], curIdx);
+          curIdx += predValuesList[i].length;
+        }
+        for (let trialIdx = 0; trialIdx < numTrials; trialIdx++) {
+          const startingPredIdx = trialIdx * exampleIndices.length * PRED_SIZE;
+          const scores = [[],[]];
+          for (
+            let exampleIdx = 0;
+            exampleIdx < exampleIndices.length;
+            exampleIdx++
+          ) {
+            //scores.push(predValues[startingPredIdx + exampleIdx * PRED_SIZE]);
+            scores[0].push(
+              predValues[startingPredIdx + exampleIdx * PRED_SIZE]
+            );
+            scores[1].push(
+              predValues[startingPredIdx + exampleIdx * PRED_SIZE + 1]
+            );
+          }
+          const score =[
+            //scores.reduce((prev, cur) => prev + cur, 0) / scores.length;
+            scores[0].reduce((prev, cur) => prev + cur, 0) / scores[0].length,
+            scores[1].reduce((prev, cur) => prev + cur, 0) / scores[1].length,
+          ];
+            
+          const ex = examples[trialIdx * exampleIndices.length];
+          const step = isNum
+            ? ex.features.feature[featureName].floatList.value[0]
+            : [atob(ex.features.feature[featureName].bytesList.value[0])];
+          //results.push({step: step, scalar: score});
+          results[0].push({step: step, scalar: score[0]});
+          results[1].push({step: step, scalar: score[1]});
+        }
+        return [[{'0': results[0],'1':results[1]}]];
+      },
+      convertExToTensor: function(ex) {
+        const vals = [];
+        vals.push(this.getValueListForFeature(ex, 'AGE'));
+        vals.push(this.getValueListForFeature(ex, 'HR_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'HR_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'HR_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'SYS_BP_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'SYS_BP_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'SYS_BP_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'DIAS_BP_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'DIAS_BP_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'DIAS_BP_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'MEAN_BP_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'MEAN_BP_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'MEAN_BP_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'RESP_RATE_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'RESP_RATE_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'RESP_RATE_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'TEMP_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'TEMP_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'TEMP_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'SPO2_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'SPO2_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'SPO2_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'GLUCOSE_MIN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'GLUCOSE_MAX_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'GLUCOSE_MEAN_DAY1'));
+        vals.push(this.getValueListForFeature(ex, 'HR_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'HR_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'HR_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'SYS_BP_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'SYS_BP_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'SYS_BP_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'DIAS_BP_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'DIAS_BP_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'DIAS_BP_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'MEAN_BP_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'MEAN_BP_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'MEAN_BP_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'RESP_RATE_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'RESP_RATE_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'RESP_RATE_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'TEMP_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'TEMP_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'TEMP_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'SPO2_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'SPO2_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'SPO2_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'GLUCOSE_MIN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'GLUCOSE_MAX_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'GLUCOSE_MEAN_DAY2'));
+        vals.push(this.getValueListForFeature(ex, 'Tuberculosis'));
+        vals.push(this.getValueListForFeature(ex, 'Immuniz/scrn'));
+        vals.push(this.getValueListForFeature(ex, 'AcuteMI'));
+        vals.push(this.getValueListForFeature(ex, 'Coronathero'));
+        vals.push(this.getValueListForFeature(ex, 'Chestpain'));
+        vals.push(this.getValueListForFeature(ex, 'Pulmhartdx'));
+        vals.push(this.getValueListForFeature(ex, 'Othheartdx'));
+        vals.push(this.getValueListForFeature(ex, 'Conduction'));
+        vals.push(this.getValueListForFeature(ex, 'Dysrhythmia'));
+        vals.push(this.getValueListForFeature(ex, 'Cardiaarrst'));
+        vals.push(this.getValueListForFeature(ex, 'chf;nonhp'));
+        vals.push(this.getValueListForFeature(ex, 'AcuteCVD'));
+        vals.push(this.getValueListForFeature(ex, 'Hd/nckcancr'));
+        vals.push(this.getValueListForFeature(ex, 'Precereoccl'));
+        vals.push(this.getValueListForFeature(ex, 'OtherCVD'));
+        vals.push(this.getValueListForFeature(ex, 'TIA'));
+        vals.push(this.getValueListForFeature(ex, 'LateeffCVD'));
+        vals.push(this.getValueListForFeature(ex, 'Peripathero'));
+        vals.push(this.getValueListForFeature(ex, 'Aneurysm'));
+        vals.push(this.getValueListForFeature(ex, 'Artembolism'));
+        vals.push(this.getValueListForFeature(ex, 'Otcirculdx'));
+        vals.push(this.getValueListForFeature(ex, 'Phlebitis'));
+        vals.push(this.getValueListForFeature(ex, 'Varicosevn'));
+        vals.push(this.getValueListForFeature(ex, 'Esophcancer'));
+        vals.push(this.getValueListForFeature(ex, 'Hemmorhoids'));
+        vals.push(this.getValueListForFeature(ex, 'Othveindx'));
+        vals.push(this.getValueListForFeature(ex, 'Pneumonia'));
+        vals.push(this.getValueListForFeature(ex, 'Influenza'));
+        vals.push(this.getValueListForFeature(ex, 'Tonsillitis'));
+        vals.push(this.getValueListForFeature(ex, 'Bronchitis'));
+        vals.push(this.getValueListForFeature(ex, 'Otuprspin'));
+        vals.push(this.getValueListForFeature(ex, 'COPD'));
+        vals.push(this.getValueListForFeature(ex, 'Asthma'));
+        vals.push(this.getValueListForFeature(ex, 'Asppneumon'));
+        vals.push(this.getValueListForFeature(ex, 'Stomchcancr'));
+        vals.push(this.getValueListForFeature(ex, 'Pleurisy'));
+        vals.push(this.getValueListForFeature(ex, 'Adltrespfl'));
+        vals.push(this.getValueListForFeature(ex, 'Lungexternl'));
+        vals.push(this.getValueListForFeature(ex, 'Othlowresp'));
+        vals.push(this.getValueListForFeature(ex, 'Otupprresp'));
+        vals.push(this.getValueListForFeature(ex, 'Intestinfct'));
+        vals.push(this.getValueListForFeature(ex, 'Teethdx'));
+        vals.push(this.getValueListForFeature(ex, 'Mouthdx'));
+        vals.push(this.getValueListForFeature(ex, 'Esophgealdx'));
+        vals.push(this.getValueListForFeature(ex, 'Gasduoulcer'));
+        vals.push(this.getValueListForFeature(ex, 'Coloncancer'));
+        vals.push(this.getValueListForFeature(ex, 'Gastritis'));
+        vals.push(this.getValueListForFeature(ex, 'Otdxstomch'));
+        vals.push(this.getValueListForFeature(ex, 'Appendicitis'));
+        vals.push(this.getValueListForFeature(ex, 'Abdomhernia'));
+        vals.push(this.getValueListForFeature(ex, 'Ulceratcol'));
+        vals.push(this.getValueListForFeature(ex, 'Intobstruct'));
+        vals.push(this.getValueListForFeature(ex, 'Diverticulos'));
+        vals.push(this.getValueListForFeature(ex, 'Anal/rectal'));
+        vals.push(this.getValueListForFeature(ex, 'Peritonitis'));
+        vals.push(this.getValueListForFeature(ex, 'Biliarydx'));
+        vals.push(this.getValueListForFeature(ex, 'Rctm/anusca'));
+        vals.push(this.getValueListForFeature(ex, 'Othliverdx'));
+        vals.push(this.getValueListForFeature(ex, 'Pancreasdx'));
+        vals.push(this.getValueListForFeature(ex, 'GIhemorrhag'));
+        vals.push(this.getValueListForFeature(ex, 'Gastroent'));
+        vals.push(this.getValueListForFeature(ex, 'OtherGIdx'));
+        vals.push(this.getValueListForFeature(ex, 'Nephritis'));
+        vals.push(this.getValueListForFeature(ex, 'Acrenlfail'));
+        vals.push(this.getValueListForFeature(ex, 'Chrrenfail'));
+        vals.push(this.getValueListForFeature(ex, 'UTI'));
+        vals.push(this.getValueListForFeature(ex, 'Liver/ibdca'));
+        vals.push(this.getValueListForFeature(ex, 'Urinstone'));
+        vals.push(this.getValueListForFeature(ex, 'Otdxkidney'));
+        vals.push(this.getValueListForFeature(ex, 'Otdxbladdr'));
+        vals.push(this.getValueListForFeature(ex, 'OtherGUdx'));
+        vals.push(this.getValueListForFeature(ex, 'BPH'));
+        vals.push(this.getValueListForFeature(ex, 'Infmalegen'));
+        vals.push(this.getValueListForFeature(ex, 'Othmalegen'));
+        vals.push(this.getValueListForFeature(ex, 'Breastdx'));
+        vals.push(this.getValueListForFeature(ex, 'PID'));
+        vals.push(this.getValueListForFeature(ex, 'Endometrios'));
+        vals.push(this.getValueListForFeature(ex, 'Pancreascan'));
+        vals.push(this.getValueListForFeature(ex, 'Prolapse'));
+        vals.push(this.getValueListForFeature(ex, 'Menstrualdx'));
+        vals.push(this.getValueListForFeature(ex, 'Ovariancyst'));
+        vals.push(this.getValueListForFeature(ex, 'Menopausldx'));
+        vals.push(this.getValueListForFeature(ex, 'Feminfertil'));
+        vals.push(this.getValueListForFeature(ex, 'Otfemalgen'));
+        vals.push(this.getValueListForFeature(ex, 'Contraceptiv'));
+        vals.push(this.getValueListForFeature(ex, 'Spontabortn'));
+        vals.push(this.getValueListForFeature(ex, 'Inducabortn'));
+        vals.push(this.getValueListForFeature(ex, 'Abortcompl'));
+        vals.push(this.getValueListForFeature(ex, 'GI/peritcan'));
+        vals.push(this.getValueListForFeature(ex, 'Ectopicpreg'));
+        vals.push(this.getValueListForFeature(ex, 'Otpregcomp'));
+        vals.push(this.getValueListForFeature(ex, 'Hemorrpreg'));
+        vals.push(this.getValueListForFeature(ex, 'HTNinpreg'));
+        vals.push(this.getValueListForFeature(ex, 'Earlylabor'));
+        vals.push(this.getValueListForFeature(ex, 'Longpregncy'));
+        vals.push(this.getValueListForFeature(ex, 'DMinpreg'));
+        vals.push(this.getValueListForFeature(ex, 'Malposition'));
+        vals.push(this.getValueListForFeature(ex, 'Pelvicobstr'));
+        vals.push(this.getValueListForFeature(ex, 'Prevc-sectn'));
+        vals.push(this.getValueListForFeature(ex, 'Brnch/lngca'));
+        vals.push(this.getValueListForFeature(ex, 'Fetaldistrs'));
+        vals.push(this.getValueListForFeature(ex, 'Amniosdx'));
+        vals.push(this.getValueListForFeature(ex, 'Umbilcord'));
+        vals.push(this.getValueListForFeature(ex, 'OB-relatedperintrauma'));
+        vals.push(this.getValueListForFeature(ex, 'Otcomplbir'));
+        vals.push(this.getValueListForFeature(ex, 'Nmlpreg/del'));
+        vals.push(this.getValueListForFeature(ex, 'Skininfectn'));
+        vals.push(this.getValueListForFeature(ex, 'Otinflskin'));
+        vals.push(this.getValueListForFeature(ex, 'Ulcerskin'));
+        vals.push(this.getValueListForFeature(ex, 'Septicemia'));
+        vals.push(this.getValueListForFeature(ex, 'Otrespirca'));
+        vals.push(this.getValueListForFeature(ex, 'Othskindx'));
+        vals.push(this.getValueListForFeature(ex, 'Infectarth'));
+        vals.push(this.getValueListForFeature(ex, 'Rheumarth'));
+        vals.push(this.getValueListForFeature(ex, 'Osteoarthros'));
+        vals.push(this.getValueListForFeature(ex, 'Otjointdx'));
+        vals.push(this.getValueListForFeature(ex, 'Backproblem'));
+        vals.push(this.getValueListForFeature(ex, 'Osteoporosis'));
+        vals.push(this.getValueListForFeature(ex, 'Pathologfx'));
+        vals.push(this.getValueListForFeature(ex, 'Acqfootdef'));
+        vals.push(this.getValueListForFeature(ex, 'Otacqdefor'));
+        vals.push(this.getValueListForFeature(ex, 'Bone/ctcncr'));
+        vals.push(this.getValueListForFeature(ex, 'SLE'));
+        vals.push(this.getValueListForFeature(ex, 'Otconntiss'));
+        vals.push(this.getValueListForFeature(ex, 'Otbonedx'));
+        vals.push(this.getValueListForFeature(ex, 'Cardiacanom'));
+        vals.push(this.getValueListForFeature(ex, 'GIconganom'));
+        vals.push(this.getValueListForFeature(ex, 'guconganom'));
+        vals.push(this.getValueListForFeature(ex, 'Nervcongan'));
+        vals.push(this.getValueListForFeature(ex, 'Otconganom'));
+        vals.push(this.getValueListForFeature(ex, 'Liveborn'));
+        vals.push(this.getValueListForFeature(ex, 'Lowbirthwt'));
+        vals.push(this.getValueListForFeature(ex, 'Skinmelanom'));
+        vals.push(this.getValueListForFeature(ex, 'Birthasphyx'));
+        vals.push(this.getValueListForFeature(ex, 'Respdistres'));
+        vals.push(this.getValueListForFeature(ex, 'Perintjaund'));
+        vals.push(this.getValueListForFeature(ex, 'Birthtrauma'));
+        vals.push(this.getValueListForFeature(ex, 'Otperintdx'));
+        vals.push(this.getValueListForFeature(ex, 'Jointinjury'));
+        vals.push(this.getValueListForFeature(ex, 'Fxhip'));
+        vals.push(this.getValueListForFeature(ex, 'Spincorinj'));
+        vals.push(this.getValueListForFeature(ex, 'Fxskullfac'));
+        vals.push(this.getValueListForFeature(ex, 'Fxarm'));
+        vals.push(this.getValueListForFeature(ex, 'Non-epithca'));
+        vals.push(this.getValueListForFeature(ex, 'Fxleg'));
+        vals.push(this.getValueListForFeature(ex, 'Othfracture'));
+        vals.push(this.getValueListForFeature(ex, 'Sprain'));
+        vals.push(this.getValueListForFeature(ex, 'Intracrninj'));
+        vals.push(this.getValueListForFeature(ex, 'Crushinjury'));
+        vals.push(this.getValueListForFeature(ex, 'Opnwndhead'));
+        vals.push(this.getValueListForFeature(ex, 'Opnwndextr'));
+        vals.push(this.getValueListForFeature(ex, 'Complicdevi'));
+        vals.push(this.getValueListForFeature(ex, 'Complicproc'));
+        vals.push(this.getValueListForFeature(ex, 'Superficinj'));
+        vals.push(this.getValueListForFeature(ex, 'Breastcancr'));
+        vals.push(this.getValueListForFeature(ex, 'Burns'));
+        vals.push(this.getValueListForFeature(ex, 'Poisonpsych'));
+        vals.push(this.getValueListForFeature(ex, 'Poisnotmed'));
+        vals.push(this.getValueListForFeature(ex, 'Poisnnonmed'));
+        vals.push(this.getValueListForFeature(ex, 'Otherinjury'));
+        vals.push(this.getValueListForFeature(ex, 'Syncope'));
+        vals.push(this.getValueListForFeature(ex, 'FUO'));
+        vals.push(this.getValueListForFeature(ex, 'Lymphenlarg'));
+        vals.push(this.getValueListForFeature(ex, 'Gangrene'));
+        vals.push(this.getValueListForFeature(ex, 'Shock'));
+        vals.push(this.getValueListForFeature(ex, 'Uteruscancr'));
+        vals.push(this.getValueListForFeature(ex, 'Nausea/vomit'));
+        vals.push(this.getValueListForFeature(ex, 'Abdomnlpain'));
+        vals.push(this.getValueListForFeature(ex, 'Fatigue'));
+        vals.push(this.getValueListForFeature(ex, 'Allergy'));
+        vals.push(this.getValueListForFeature(ex, 'Socialadmin'));
+        vals.push(this.getValueListForFeature(ex, 'Exam/eval'));
+        vals.push(this.getValueListForFeature(ex, 'Otaftercare'));
+        vals.push(this.getValueListForFeature(ex, 'Otherscreen'));
+        vals.push(this.getValueListForFeature(ex, 'Unclassified'));
+        vals.push(this.getValueListForFeature(ex, 'Cervixcancr'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Cut/pierce'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Drowning/submersion'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Fall'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Fire/burn'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Firearm'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Machinery'));
+        vals.push(this.getValueListForFeature(ex, 'ecodes:motorvehicletraffic(mvt)'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Pedalcyclist-notMVT'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Pedestrian-notMVT'));
+        vals.push(this.getValueListForFeature(ex, 'ecodes:transport-notmvt'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Natural/environment'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Overexertion'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Poisoning'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Struckby-against'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Suffocation'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Adverseeffectsofmedicalcare'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Adverseeffectsofmedicaldrugs'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Otherspecifiedandclassifiable'));
+        vals.push(this.getValueListForFeature(ex, 'ecodes:otherspecified-nec'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Unspecified'));
+        vals.push(this.getValueListForFeature(ex, 'ECodes:Placeofoccurrence'));
+        vals.push(this.getValueListForFeature(ex, 'Ovarycancer'));
+        vals.push(this.getValueListForFeature(ex, 'Femgenitca'));
+        vals.push(this.getValueListForFeature(ex, 'Prostatecan'));
+        vals.push(this.getValueListForFeature(ex, 'Othbactinf'));
+        vals.push(this.getValueListForFeature(ex, 'Testiscancr'));
+        vals.push(this.getValueListForFeature(ex, 'Malgenitca'));
+        vals.push(this.getValueListForFeature(ex, 'Bladdercncr'));
+        vals.push(this.getValueListForFeature(ex, 'Kidny/rnlca'));
+        vals.push(this.getValueListForFeature(ex, 'Urinyorgca'));
+        vals.push(this.getValueListForFeature(ex, 'Brain/nscan'));
+        vals.push(this.getValueListForFeature(ex, 'Thyroidcncr'));
+        vals.push(this.getValueListForFeature(ex, 'Hodgkin-sds'));
+        vals.push(this.getValueListForFeature(ex, 'Non-Hodglym'));
+        vals.push(this.getValueListForFeature(ex, 'Leukemias'));
+        vals.push(this.getValueListForFeature(ex, 'Mycoses'));
+        vals.push(this.getValueListForFeature(ex, 'Multmyeloma'));
+        vals.push(this.getValueListForFeature(ex, 'Otprimryca'));
+        vals.push(this.getValueListForFeature(ex, '2ndarymalig'));
+        vals.push(this.getValueListForFeature(ex, 'Maligneopls'));
+        vals.push(this.getValueListForFeature(ex, 'Neoplsmunsp'));
+        vals.push(this.getValueListForFeature(ex, 'Maintchem/r'));
+        vals.push(this.getValueListForFeature(ex, 'Bnignutneo'));
+        vals.push(this.getValueListForFeature(ex, 'Otbnignneo'));
+        vals.push(this.getValueListForFeature(ex, 'Thyroiddsor'));
+        vals.push(this.getValueListForFeature(ex, 'DiabMelnoc'));
+        vals.push(this.getValueListForFeature(ex, 'HIVinfectn'));
+        vals.push(this.getValueListForFeature(ex, 'DiabMelw/cm'));
+        vals.push(this.getValueListForFeature(ex, 'Otendodsor'));
+        vals.push(this.getValueListForFeature(ex, 'Nutritdefic'));
+        vals.push(this.getValueListForFeature(ex, 'Hyperlipidem'));
+        vals.push(this.getValueListForFeature(ex, 'Gout/otcrys'));
+        vals.push(this.getValueListForFeature(ex, 'Fluid/elcdx'));
+        vals.push(this.getValueListForFeature(ex, 'Cysticfibro'));
+        vals.push(this.getValueListForFeature(ex, 'Immunitydx'));
+        vals.push(this.getValueListForFeature(ex, 'Otnutritdx'));
+        vals.push(this.getValueListForFeature(ex, 'Anemia'));
+        vals.push(this.getValueListForFeature(ex, 'Hepatitis'));
+        vals.push(this.getValueListForFeature(ex, 'Acutp-hanm'));
+        vals.push(this.getValueListForFeature(ex, 'Sicklecell'));
+        vals.push(this.getValueListForFeature(ex, 'Coag/hemrdx'));
+        vals.push(this.getValueListForFeature(ex, 'Whtblooddx'));
+        vals.push(this.getValueListForFeature(ex, 'Othematldx'));
+        vals.push(this.getValueListForFeature(ex, 'Adjustmentdisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Anxietydisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Attention-deficit/conduct/disruptivebeha'));
+        vals.push(this.getValueListForFeature(ex, 'Delirium/dementia/amnestic/othercognitiv'));
+        vals.push(this.getValueListForFeature(ex, 'Developmentaldisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Disordersusuallydiagnosedininfancy/ch'));
+        vals.push(this.getValueListForFeature(ex, 'ImpulsecontroldisordersNEC'));
+        vals.push(this.getValueListForFeature(ex, 'Mooddisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Personalitydisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Schizophreniaandotherpsychoticdisorde'));
+        vals.push(this.getValueListForFeature(ex, 'Alcohol-relateddisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Substance-relateddisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Suicideandintentionalself-inflictedin'));
+        vals.push(this.getValueListForFeature(ex, 'Screeningandhistoryofmentalhealthan'));
+        vals.push(this.getValueListForFeature(ex, 'Miscellaneousmentaldisorders'));
+        vals.push(this.getValueListForFeature(ex, 'Viralinfect'));
+        vals.push(this.getValueListForFeature(ex, 'Meningitis'));
+        vals.push(this.getValueListForFeature(ex, 'Encephalitis'));
+        vals.push(this.getValueListForFeature(ex, 'OthCNSinfx'));
+        vals.push(this.getValueListForFeature(ex, 'Parkinson-s'));
+        vals.push(this.getValueListForFeature(ex, 'Othinfectns'));
+        vals.push(this.getValueListForFeature(ex, 'MS'));
+        vals.push(this.getValueListForFeature(ex, 'OtheredCNS'));
+        vals.push(this.getValueListForFeature(ex, 'Paralysis'));
+        vals.push(this.getValueListForFeature(ex, 'Epilepsy/cnv'));
+        vals.push(this.getValueListForFeature(ex, 'Headache/mig'));
+        vals.push(this.getValueListForFeature(ex, 'Coma/brndmg'));
+        vals.push(this.getValueListForFeature(ex, 'Cataract'));
+        vals.push(this.getValueListForFeature(ex, 'Retinaldx'));
+        vals.push(this.getValueListForFeature(ex, 'Glaucoma'));
+        vals.push(this.getValueListForFeature(ex, 'Blindness'));
+        vals.push(this.getValueListForFeature(ex, 'SexualInfxs'));
+        vals.push(this.getValueListForFeature(ex, 'Eyeinfectn'));
+        vals.push(this.getValueListForFeature(ex, 'Othereyedx'));
+        vals.push(this.getValueListForFeature(ex, 'Otitismedia'));
+        vals.push(this.getValueListForFeature(ex, 'Dizziness'));
+        vals.push(this.getValueListForFeature(ex, 'Othereardx'));
+        vals.push(this.getValueListForFeature(ex, 'Othnervdx'));
+        vals.push(this.getValueListForFeature(ex, 'Hrtvalvedx'));
+        vals.push(this.getValueListForFeature(ex, 'Carditis'));
+        vals.push(this.getValueListForFeature(ex, 'HTN'));
+        vals.push(this.getValueListForFeature(ex, 'Htncomplicn'));
+        vals.push(this.getValueListForFeature(ex, 'GENDER'));
+        vals.push(this.getValueListForFeature(ex, 'ICU'));
+
+        const arr = vals.reduce((a, b) => a.concat(b), []);
+        return tf.tensor1d(arr);
+      },
+
+      getValueListForFeature(ex, feat) {
+        if (this.means[feat]) {
+          return [
+            (ex.features.feature[feat].floatList.value[0] * 1)
+          ];
+        }
+        const onehot = Array(this.categories[feat].length).fill(0);
+        onehot[
+          this.categories[feat].indexOf(
+            atob(ex.features.feature[feat].bytesList.value[0])
+          )
+        ] = 1;
+        return onehot;
+      },
+    });
+  </script>
+</dom-module>

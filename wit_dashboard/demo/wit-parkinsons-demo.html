@@ -1,0 +1,368 @@
+<!--
+@license
+Copyright 2018 The TensorFlow Authors. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<link rel="import" href="../tf-imports/polymer.html" />
+<link rel="import" href="wit-dashboard.html" />
+<script src="tf.min.js"></script>
+<dom-module id="wit-demo">
+  <template>
+    <style>
+      :host {
+        width: 100%;
+        display: block;
+      }
+      #dash {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <wit-dashboard
+      id="dash"
+      local="true"
+      label-vocab="[[labelVocab]]"
+      model-name="demo"
+      inference-address="demo"
+    >
+    </wit-dashboard>
+  </template>
+  <script>
+    Polymer({
+      is: 'wit-demo',
+      properties: {
+        model: Object,
+        data: Array,
+        indicesToInfer: {type: Object, value: () => ({})},
+        //means: Object,
+        categories: Object,
+        labelVocab: {type: Array, value: ['0', '1']},
+      },
+      ready: async function() {
+        this.$.dash.modelName = '1';
+        this.$.dash.inferenceAddress = 'demo1';
+        this.$.dash.updateNumberOfModels();
+        // this.means = {
+        //   'worst_fractal_dimension': 0.0817193859649123,
+        // };
+        
+        this.model = await tf.loadLayersModel(
+          tf.io.browserHTTPRequest('data/parkinsons/model.json', {
+            credentials: 'include',
+          })
+        );
+        const DATA_PATH = 'data/parkinsons/parkinsons_test.json';
+        const testData = d3.json(DATA_PATH).then((data) => {
+          //data = data.slice(0, 500);
+          this.data = data;
+          for (let i = 0; i < data.length; i++) {
+            this.indicesToInfer[i] = true;
+          }
+          this.$.dash.updateExampleContents(
+            data.map((item) => JSON.stringify(item)),
+            false
+          );
+          this.$.dash.addEventListener('update-example', (e) => {
+            this.data[e.detail.index] = JSON.parse(e.detail.example);
+            this.indicesToInfer[e.detail.index] = true;
+          });
+          this.$.dash.addEventListener('duplicate-example', (e) => {
+            this.data.push(
+              JSON.parse(JSON.stringify(this.data[e.detail.index]))
+            );
+            this.indicesToInfer[this.data.length - 1] = true;
+          });
+          this.$.dash.addEventListener('delete-example', (e) => {
+            this.data.splice(e.detail.index, 1);
+            const newIndicesToInfer = {};
+            const oldIndicesToInfer = Object.keys(this.indicesToInfer);
+            for (let i = 0; i < oldIndicesToInfer.length; i++) {
+              const idx = oldIndicesToInfer[i];
+              if (idx < e.detail.index) {
+                newIndicesToInfer[idx] = true;
+              } else {
+                newIndicesToInfer[idx - 1] = true;
+              }
+            }
+            this.indicesToInfer = newIndicesToInfer;
+          });
+          this.$.dash.addEventListener('infer-examples', async (e) => {
+            const inferences = {};
+            const indices = Object.keys(this.indicesToInfer).sort();
+            inferences.indices = indices;
+            inferences.results = [
+              {classificationResult: {classifications: []}},
+            ];
+            const tensorArr = indices.map((idx) =>
+              this.convertExToTensor(this.data[idx])
+            );
+            const tensors = tf.concat(tensorArr);
+            const input = tensors.reshape([indices.length, 22]);
+            //console.log(input.print)
+            const res = this.model.predict(input);
+            const predValues = await res.data();
+            tensors.dispose();
+            tensorArr.forEach((tensor) => tensor.dispose());
+            input.dispose();
+            res.dispose();
+            const PRED_SIZE = 2;
+            for (let i = 0; i < indices.length; i++) {
+              inferences.results[0].classificationResult.classifications[i] = {
+                classes: [
+                  {label: '0', score: predValues[i * PRED_SIZE ]},
+                  {label: '1', score: predValues[i * PRED_SIZE+1]},
+                ],
+              };
+            }
+            this.$.dash.inferences = inferences;
+            this.indicesToInfer = {};
+          });
+          this.$.dash.addEventListener('get-eligible-features', (e) => {
+            this.$.dash.partialDepPlotEligibleFeatures = [
+              {observedMax: 201.774 , name: 'MDVP:Fo(Hz)' , observedMin: 95.385 } ,
+              {observedMax: 581.289 , name: 'MDVP:Fhi(Hz)' , observedMin: 102.145 } ,
+              {observedMax: 195.708 , name: 'MDVP:Flo(Hz)' , observedMin: 74.904 } ,
+              {observedMax: 0.01872 , name: 'MDVP:Jitter(%)' , observedMin: 0.00168 } ,
+              {observedMax: 0.00011 , name: 'MDVP:Jitter(Abs)' , observedMin: 1e-05 } ,
+              {observedMax: 0.01075 , name: 'MDVP:RAP' , observedMin: 0.0006799999999999999 } ,
+              {observedMax: 0.01154 , name: 'MDVP:PPQ' , observedMin: 0.00092 } ,
+              {observedMax: 0.03225 , name: 'Jitter:DDP' , observedMin: 0.00204 } ,
+              {observedMax: 0.08143 , name: 'MDVP:Shimmer' , observedMin: 0.01022 } ,
+              {observedMax: 0.821 , name: 'MDVP:Shimmer(dB)' , observedMin: 0.09 } ,
+              {observedMax: 0.03804 , name: 'Shimmer:APQ3' , observedMin: 0.00469 } ,
+              {observedMax: 0.05426 , name: 'Shimmer:APQ5' , observedMin: 0.0058200000000000005 } ,
+              {observedMax: 0.08807999999999999 , name: 'MDVP:APQ' , observedMin: 0.008020000000000001 } ,
+              {observedMax: 0.11411 , name: 'Shimmer:DDA' , observedMin: 0.01406 } ,
+              {observedMax: 0.10952 , name: 'NHR' , observedMin: 0.00135 } ,
+              {observedMax: 31.732 , name: 'HNR' , observedMin: 11.744000000000002 } ,
+              // {observedMax: 1 , name: status , observedMin: 0 } ,
+              {observedMax: 0.677131 , name: 'RPDE' , observedMin: 0.263654 } ,
+              {observedMax: 0.823484 , name: 'DFA' , observedMin: 0.6439560000000001 } ,
+              {observedMax: -3.297668 , name: 'spread1' , observedMin: -7.777685000000001 } ,
+              {observedMax: 0.414758 , name: 'spread2' , observedMin: 0.08784 } ,
+              {observedMax: 3.413649 , name: 'D2' , observedMin: 1.7438669999999998 } ,
+              {observedMax: 0.457533 , name: 'PPE' , observedMin: 0.05761 } ,
+            ];
+          });
+          this.$.dash.addEventListener('infer-mutants', async (e) => {
+            const method = async () => {
+              const data = await this.createPdPlotData(
+                e.detail.feature_name,
+                e.detail.example_index,
+                +e.detail.x_min,
+                +e.detail.x_max
+              );
+              let isNum = false;
+              for (let entry of this.$.dash.partialDepPlotEligibleFeatures) {
+                if (entry.name == e.detail.feature_name && !entry.samples) {
+                  isNum = true;
+                  break;
+                }
+              }
+              this.$.dash.makeChartForFeature(
+                isNum ? 'numeric' : 'categorical',
+                e.detail.feature_name,
+                data
+              );
+            };
+            setTimeout(method, 50);
+          });
+          this.$.dash.addEventListener('sort-eligible-features', async (e) => {
+            const method = async () => {
+              const chartData = {};
+              const list = this.$.dash.partialDepPlotEligibleFeatures;
+              for (let feat of list) {
+                chartData[feat.name] = await this.createPdPlotData(
+                  feat.name,
+                  e.detail.example_index,
+                  +feat.observedMin,
+                  +feat.observedMax
+                );
+              }
+              for (let feat of list) {
+                const charts = chartData[feat.name];
+                let maxMeasure = 0;
+                const isNum = feat.samples == null;
+                for (let models of charts) {
+                  for (let chart of models) {
+                    for (let key in chart) {
+                      const series = chart[key];
+                      let measure = 0;
+                      if (isNum) {
+                        for (let i = 0; i < series.length - 1; i++) {
+                          measure += Math.abs(
+                            series[i].scalar - series[i + 1].scalar
+                          );
+                        }
+                      } else {
+                        let minY = Infinity;
+                        let maxY = -Infinity;
+                        for (let i = 0; i < series.length; i++) {
+                          const val = series[i].scalar;
+                          if (val < minY) {
+                            minY = val;
+                          }
+                          if (val > maxY) {
+                            maxY = val;
+                          }
+                        }
+                        measure = maxY - minY;
+                      }
+                      if (measure > maxMeasure) {
+                        maxMeasure = measure;
+                      }
+                    }
+                  }
+                }
+                feat.interestingness = maxMeasure;
+              }
+              this.$.dash.partialDepPlotEligibleFeatures = [];
+              list.sort((a, b) => b.interestingness - a.interestingness);
+              this.$.dash.partialDepPlotEligibleFeatures = list;
+            };
+            setTimeout(method, 50);
+          });
+          requestAnimationFrame(() => {
+            this.$.dash.inferClicked_();
+            this.$.dash.selectedLabelFeature = 'status';
+          });
+        });
+      },
+      createPdPlotData: async function(featureName, exampleIndex, xMin, xMax) {
+        const examples = [];
+        let feat = null;
+        for (let entry of this.$.dash.partialDepPlotEligibleFeatures) {
+          if (entry.name == featureName) {
+            feat = entry;
+            break;
+          }
+        }
+        const isNum = !feat.samples;
+        const numTrials = isNum ? 10 : feat.samples.length;
+        const exampleIndices =
+          exampleIndex == -1
+            ? [...Array(this.data.length).keys()]
+            : [exampleIndex];
+        for (let i = 0; i < numTrials; i++) {
+          for (let idx = 0; idx < exampleIndices.length; idx++) {
+            const ex = JSON.parse(
+              JSON.stringify(this.data[exampleIndices[idx]])
+            );
+            if (isNum) {
+              ex.features.feature[featureName].floatList.value[0] =
+                xMin + i * ((1 / (numTrials - 1)) * (xMax - xMin));
+            } else {
+              ex.features.feature[featureName].bytesList.value[0] = btoa(
+                feat.samples[i]
+              );
+            }
+            examples.push(ex);
+          }
+        }
+        const PRED_SIZE = 2;
+        const BATCH_SIZE = 20;
+        const results = [[],[]];
+        const predValuesList = [];
+        for (let i = 0; i < examples.length; i += BATCH_SIZE) {
+          let tlist = [];
+          for (
+            let idx = i;
+            idx < Math.min(i + BATCH_SIZE, examples.length);
+            idx++
+          ) {
+            tlist.push(this.convertExToTensor(examples[idx]));
+          }
+          const tconcat = tf.concat(tlist);
+          tlist.forEach((tensor) => tensor.dispose());
+          const input = tconcat.reshape([tlist.length, 22]);
+          //console.log(input)
+          const res = this.model.predict(input);
+          const vals = await res.data();
+          predValuesList.push(vals);
+          input.dispose();
+          res.dispose();
+          tconcat.dispose();
+        }
+        const predSize = predValuesList.reduce((a, b) => a + b.length, 0);
+        const predValues = new Float32Array(predSize);
+        let curIdx = 0;
+        for (let i = 0; i < predValuesList.length; i++) {
+          predValues.set(predValuesList[i], curIdx);
+          curIdx += predValuesList[i].length;
+        }
+        for (let trialIdx = 0; trialIdx < numTrials; trialIdx++) {
+          const startingPredIdx = trialIdx * exampleIndices.length * PRED_SIZE;
+          const scores = [[],[]];
+          for (
+            let exampleIdx = 0;
+            exampleIdx < exampleIndices.length;
+            exampleIdx++
+          ) {
+            scores[0].push(
+              predValues[startingPredIdx + exampleIdx * PRED_SIZE]
+            );
+            scores[1].push(
+              predValues[startingPredIdx + exampleIdx * PRED_SIZE + 1]
+            );
+          }
+          const score =[
+            scores[0].reduce((prev, cur) => prev + cur, 0) / scores[0].length,
+            scores[1].reduce((prev, cur) => prev + cur, 0) / scores[1].length,
+          ];
+          const ex = examples[trialIdx * exampleIndices.length];
+          const step = isNum
+            ? ex.features.feature[featureName].floatList.value[0]
+            : [atob(ex.features.feature[featureName].bytesList.value[0])];
+            results[0].push({step: step, scalar: score[0]});
+            results[1].push({step: step, scalar: score[1]});
+        }
+        return [[{'0': results[0],'1':results[1]}]];
+      },
+      convertExToTensor: function(ex) {
+        const vals = [];
+        vals.push(this.getValueListForFeature(ex, 'MDVP:Fo(Hz)'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:Fhi(Hz)'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:Flo(Hz)'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:Jitter(%)'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:Jitter(Abs)'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:RAP'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:PPQ'));
+        vals.push(this.getValueListForFeature(ex, 'Jitter:DDP'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:Shimmer'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:Shimmer(dB)'));
+        vals.push(this.getValueListForFeature(ex, 'Shimmer:APQ3'));
+        vals.push(this.getValueListForFeature(ex, 'Shimmer:APQ5'));
+        vals.push(this.getValueListForFeature(ex, 'MDVP:APQ'));
+        vals.push(this.getValueListForFeature(ex, 'Shimmer:DDA'));
+        vals.push(this.getValueListForFeature(ex, 'NHR'));
+        vals.push(this.getValueListForFeature(ex, 'HNR'));
+        // vals.push(this.getValueListForFeature(ex, 'status'));
+        vals.push(this.getValueListForFeature(ex, 'RPDE'));
+        vals.push(this.getValueListForFeature(ex, 'DFA'));
+        vals.push(this.getValueListForFeature(ex, 'spread1'));
+        vals.push(this.getValueListForFeature(ex, 'spread2'));
+        vals.push(this.getValueListForFeature(ex, 'D2'));
+        vals.push(this.getValueListForFeature(ex, 'PPE'));
+
+        const arr = vals.reduce((a, b) => a.concat(b), []);
+        return tf.tensor1d(arr);
+      },
+
+      getValueListForFeature(ex, feat) {
+          return [(ex.features.feature[feat].floatList.value[0] * 1) ]; 
+      },
+    });
+  </script>
+</dom-module>

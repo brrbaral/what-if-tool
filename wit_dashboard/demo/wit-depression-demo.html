@@ -1,0 +1,456 @@
+<!--
+@license
+Copyright 2018 The TensorFlow Authors. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<link rel="import" href="../tf-imports/polymer.html" />
+<link rel="import" href="wit-dashboard.html" />
+<script src="tf.min.js"></script>
+<dom-module id="wit-demo">
+  <template>
+    <style>
+      :host {
+        width: 100%;
+        display: block;
+      }
+      #dash {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <wit-dashboard
+      id="dash"
+      local="true"
+      label-vocab="[[labelVocab]]"
+    >
+    </wit-dashboard>
+  </template>
+  <script>
+    Polymer({
+      is: 'wit-demo',
+      properties: {
+        model: Object,
+        data: Array,
+        indicesToInfer: {type: Object, value: () => ({})},
+        labelVocab: {
+          type: Array,
+          value: ['NotDepressed', 'Depressed',],
+        },
+      },
+      ready: async function() {
+        this.$.dash.modelName = 'demo';
+        this.$.dash.inferenceAddress = 'demo';
+        this.$.dash.multiClass = true;
+        this.$.dash.updateNumberOfModels();
+        this.model = await tf.loadLayersModel(
+          tf.io.browserHTTPRequest('data/depression/model.json', {
+            credentials: 'include',
+          })
+        );
+        const DATA_PATH = 'data/depression/depression_test.json';
+        const testData = d3.json(DATA_PATH).then((data) => {
+          this.data = data;
+          for (let i = 0; i < this.data.length; i++) {
+            this.indicesToInfer[i] = true;
+          }
+          this.$.dash.updateExampleContents(
+            this.data.map((item) => JSON.stringify(item)),
+            false
+          );
+          this.$.dash.addEventListener('update-example', (e) => {
+            this.data[e.detail.index] = JSON.parse(e.detail.example);
+            this.indicesToInfer[e.detail.index] = true;
+          });
+          this.$.dash.addEventListener('duplicate-example', (e) => {
+            this.data.push(
+              JSON.parse(JSON.stringify(this.data[e.detail.index]))
+            );
+            this.indicesToInfer[this.data.length - 1] = true;
+          });
+          this.$.dash.addEventListener('delete-example', (e) => {
+            this.data.splice(e.detail.index, 1);
+            const newIndicesToInfer = {};
+            const oldIndicesToInfer = Object.keys(this.indicesToInfer);
+            for (let i = 0; i < oldIndicesToInfer.length; i++) {
+              const idx = oldIndicesToInfer[i];
+              if (idx < e.detail.index) {
+                newIndicesToInfer[idx] = true;
+              } else {
+                newIndicesToInfer[idx - 1] = true;
+              }
+            }
+            this.indicesToInfer = newIndicesToInfer;
+          });
+          this.$.dash.addEventListener('infer-examples', async (e) => {
+            const inferences = {};
+            const indices = Object.keys(this.indicesToInfer).sort();
+            inferences.indices = indices;
+            inferences.results = [
+              {classificationResult: {classifications: []}},
+            ];
+            const tensorArr = indices.map((idx) =>
+              this.convertExToTensor(this.data[idx])
+            );
+            const tensors = tf.concat(tensorArr);
+            const input = tensors.reshape([indices.length, 67]);
+            const res = this.model.predict(input, {batchSize: 128});
+            const predValues = await res.data();
+            input.dispose();
+            tensors.dispose();
+            tensorArr.forEach((tensor) => tensor.dispose());
+            res.dispose();
+            const PRED_SIZE = 2;
+            for (let i = 0; i < indices.length; i++) {
+              inferences.results[0].classificationResult.classifications[i] = {
+                classes: [
+                  {label: '0', score: predValues[i * PRED_SIZE]},
+                  {label: '1', score: predValues[i * PRED_SIZE + 1]},
+                  //{label: '2', score: predValues[i * PRED_SIZE + 2]},
+                ],
+              };
+            }
+            this.$.dash.inferences = inferences;
+            this.indicesToInfer = {};
+          });
+          this.$.dash.addEventListener('get-eligible-features', (e) => {
+            this.$.dash.partialDepPlotEligibleFeatures = [
+              {observedMax: 91.0 , name: 'age' , observedMin: 17.0 },
+              {observedMax: 64.06147800000001 , name: 'amount_given_mpesa' , observedMin: 0.0 },
+              {observedMax: 288.27667 , name: 'amount_received_mpesa' , observedMin: 0.0 },
+              {observedMax: 128.12296 , name: 'amount_saved_mpesa' , observedMin: 0.0 } ,
+              {observedMax: 1316.3032 , name: 'asset_durable' , observedMin: 0.0 } ,
+              {observedMax: 15.25 , name: 'asset_land_owned_total' , observedMin: 0.0 } ,
+              {observedMax: 1967.6268 , name: 'asset_livestock' , observedMin: 0.0 } ,
+              {observedMax: 0.0 , name: 'asset_niceroof' , observedMin: 0.0 } ,
+              {observedMax: 152.14601000000005 , name: 'asset_phone' , observedMin: 0.0 } ,
+              {observedMax: 160.1537 , name: 'asset_savings' , observedMin: 0.0 } ,
+              {observedMax: 9.0 , name: 'children' , observedMin: 0.0 } ,
+              {observedMax: 48.846878000000004 , name: 'cons_alcohol' , observedMin: 0.0 } ,
+              {observedMax: 514.3111 , name: 'cons_allfood' , observedMin: 0.0 } ,
+              {observedMax: 33.365353000000006 , name: 'cons_ed' , observedMin: 0.0 } ,
+              {observedMax: 160.1537 , name: 'cons_med_children' , observedMin: 0.0 } ,
+              {observedMax: 164.95831 , name: 'cons_med_total' , observedMin: 0.0 } ,
+              {observedMax: 648.21948 , name: 'cons_nondurable' , observedMin: 0.0 } ,
+              {observedMax: 113.22867 , name: 'cons_other' , observedMin: 0.0 } ,
+              {observedMax: 91.18084 , name: 'cons_ownfood' , observedMin: 0.0 } ,
+              {observedMax: 39.7715 , name: 'cons_social' , observedMin: 0.0 } ,
+              {observedMax: 27.912502000000003 , name: 'cons_tobacco' , observedMin: 0.0 } ,
+              {observedMax: 6.0 , name: 'day_of_week' , observedMin: 0.0 } ,
+              {observedMax: 2400.0417 , name: 'durable_investment' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'early_survey' , observedMin: 0.0 } ,
+              {observedMax: 400.38425 , name: 'ed_expenses' , observedMin: 0.0 } ,
+              {observedMax: 184.49706 , name: 'ed_expenses_perkid' , observedMin: 0.0 } ,
+              {observedMax: 16.0 , name: 'ed_sch_missedpc' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'ed_schoolattend' , observedMin: 0.0 } ,
+              {observedMax: 17.0 , name: 'edu' , observedMin: 1.0 } ,
+              {observedMax: 102.09798 , name: 'ent_animalstockrev' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'ent_business' , observedMin: 0.0 } ,
+              {observedMax: 3.0 , name: 'ent_employees' , observedMin: 0.0 } ,
+              {observedMax: 28.738690999999996 , name: 'ent_farmexpenses' , observedMin: 0.0 } ,
+              {observedMax: 35.233814 , name: 'ent_farmrevenue' , observedMin: 0.0 } ,
+              {observedMax: 317.10434 , name: 'ent_nonag_flowcost' , observedMin: 0.0 } ,
+              {observedMax: 884.0484 , name: 'ent_nonag_revenue' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'ent_nonagbusiness' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'ent_ownfarm' , observedMin: 0.0 } ,
+              {observedMax: 318.42114 , name: 'ent_total_cost' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'ent_wagelabor' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'femaleres' , observedMin: 0.0 } ,
+              {observedMax: 20.0 , name: 'fs_adskipm_often' , observedMin: 0.0 } ,
+              {observedMax: 20.0 , name: 'fs_adwholed_often' , observedMin: 0.0 } ,
+              {observedMax: 20.0 , name: 'fs_chskipm_often' , observedMin: 0.0 } ,
+              {observedMax: 7.5 , name: 'fs_chwholed_often' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'fs_enoughtom' , observedMin: 0.0 } ,
+              {observedMax: 11.0 , name: 'fs_meat' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'fs_sleephun' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'given_mpesa' , observedMin: 0.0 } ,
+              {observedMax: 7.0 , name: 'hh_children' , observedMin: 0.0 } ,
+              {observedMax: 12.0 , name: 'hh_totalmembers' , observedMin: 1.0 } ,
+              {observedMax: 12.0 , name: 'hhsize' , observedMin: 1.0 } ,
+              {observedMax: 1.0 , name: 'labor_primary' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'married' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'med_afford_port' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'med_child_check' , observedMin: 1.0 } ,
+              {observedMax: 1.0 , name: 'med_healthconsult' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'med_port_sick_child' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'med_portion_sickinjured' , observedMin: 0.0 } ,
+              {observedMax: 28.0 , name: 'med_sickdays_hhave' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'med_vacc_newborns' , observedMin: 1.0 } ,
+              {observedMax: 288.27667 , name: 'net_mpesa' , observedMin: -64.06147800000001 } ,
+              {observedMax: 323.22577 , name: 'nondurable_investment' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'received_mpesa' , observedMin: 0.0 } ,
+              {observedMax: 1.0 , name: 'saved_mpesa' , observedMin: 0.0 } ,
+              {observedMax: 285.0 , name: 'village' , observedMin: 1.0 } ,
+              {observedMax: 0.0 , name: 'wage_expenditures' , observedMin: 0.0 } ,
+              //{observedMax: 1.0 , name: depressed , observedMin: 0.0 } ,
+            ];
+          });
+          this.$.dash.addEventListener('infer-mutants', async (e) => {
+            const method = async () => {
+              const data = await this.createPdPlotData(
+                e.detail.feature_name,
+                e.detail.example_index,
+                +e.detail.x_min,
+                +e.detail.x_max
+              );
+              let isNum = false;
+              for (let entry of this.$.dash.partialDepPlotEligibleFeatures) {
+                if (entry.name == e.detail.feature_name && !entry.samples) {
+                  isNum = true;
+                  break;
+                }
+              }
+              this.$.dash.makeChartForFeature(
+                isNum ? 'numeric' : 'categorical',
+                e.detail.feature_name,
+                data
+              );
+            };
+            setTimeout(method, 50);
+          });
+          this.$.dash.addEventListener('sort-eligible-features', async (e) => {
+            const method = async () => {
+              const chartData = {};
+              const list = this.$.dash.partialDepPlotEligibleFeatures;
+              for (let feat of list) {
+                chartData[feat.name] = await this.createPdPlotData(
+                  feat.name,
+                  e.detail.example_index,
+                  +feat.observedMin,
+                  +feat.observedMax
+                );
+              }
+              for (let feat of list) {
+                const charts = chartData[feat.name];
+                let maxMeasure = 0;
+                const isNum = feat.samples == null;
+                for (let models of charts) {
+                  for (let chart of models) {
+                    for (let key in chart) {
+                      const series = chart[key];
+                      let measure = 0;
+                      if (isNum) {
+                        for (let i = 0; i < series.length - 1; i++) {
+                          measure += Math.abs(
+                            series[i].scalar - series[i + 1].scalar
+                          );
+                        }
+                      } else {
+                        let minY = Infinity;
+                        let maxY = -Infinity;
+                        for (let i = 0; i < series.length; i++) {
+                          const val = series[i].scalar;
+                          if (val < minY) {
+                            minY = val;
+                          }
+                          if (val > maxY) {
+                            maxY = val;
+                          }
+                        }
+                        measure = maxY - minY;
+                      }
+                      if (measure > maxMeasure) {
+                        maxMeasure = measure;
+                      }
+                    }
+                  }
+                }
+                feat.interestingness = maxMeasure;
+              }
+              this.$.dash.partialDepPlotEligibleFeatures = [];
+              list.sort((a, b) => b.interestingness - a.interestingness);
+              this.$.dash.partialDepPlotEligibleFeatures = list;
+            };
+            setTimeout(method, 50);
+          });
+          requestAnimationFrame(() => {
+            this.$.dash.inferClicked_();
+            this.$.dash.selectedLabelFeature = 'depressed';
+          });
+        });
+      },
+      createPdPlotData: async function(featureName, exampleIndex, xMin, xMax) {
+        const examples = [];
+        let feat = null;
+        for (let entry of this.$.dash.partialDepPlotEligibleFeatures) {
+          if (entry.name == featureName) {
+            feat = entry;
+            break;
+          }
+        }
+        const isNum = !feat.samples;
+        const numTrials = isNum ? 10 : feat.samples.length;
+        const exampleIndices =
+          exampleIndex == -1
+            ? [...Array(this.data.length).keys()]
+            : [exampleIndex];
+        for (let i = 0; i < numTrials; i++) {
+          for (let idx = 0; idx < exampleIndices.length; idx++) {
+            const ex = JSON.parse(
+              JSON.stringify(this.data[exampleIndices[idx]])
+            );
+            if (isNum) {
+              ex.features.feature[featureName].floatList.value[0] =
+                xMin + i * ((1 / (numTrials - 1)) * (xMax - xMin));
+            } else {
+              ex.features.feature[featureName].bytesList.value[0] = btoa(
+                feat.samples[i]
+              );
+            }
+            examples.push(ex);
+          }
+        }
+        const PRED_SIZE = 2;
+        const BATCH_SIZE = 128;
+        const results = [[], []];
+        const predValuesList = [];
+        for (let i = 0; i < examples.length; i += BATCH_SIZE) {
+          let tlist = [];
+          for (
+            let idx = i;
+            idx < Math.min(i + BATCH_SIZE, examples.length);
+            idx++
+          ) {
+            tlist.push(this.convertExToTensor(examples[idx]));
+          }
+          const tconcat = tf.concat(tlist);
+          tlist.forEach((tensor) => tensor.dispose());
+          const input = tconcat.reshape([tlist.length, 67]);
+          const res = this.model.predict(input, {batchSize: BATCH_SIZE});
+          const vals = await res.data();
+          predValuesList.push(vals);
+          input.dispose();
+          res.dispose();
+          tconcat.dispose();
+        }
+        const predSize = predValuesList.reduce((a, b) => a + b.length, 0);
+        const predValues = new Float32Array(predSize);
+        let curIdx = 0;
+        for (let i = 0; i < predValuesList.length; i++) {
+          predValues.set(predValuesList[i], curIdx);
+          curIdx += predValuesList[i].length;
+        }
+        for (let trialIdx = 0; trialIdx < numTrials; trialIdx++) {
+          const startingPredIdx = trialIdx * exampleIndices.length * PRED_SIZE;
+          const scores = [[], []];
+          for (
+            let exampleIdx = 0;
+            exampleIdx < exampleIndices.length;
+            exampleIdx++
+          ) {
+            scores[0].push(
+              predValues[startingPredIdx + exampleIdx * PRED_SIZE]
+            );
+            scores[1].push(
+              predValues[startingPredIdx + exampleIdx * PRED_SIZE + 1]
+            );
+            // scores[2].push(
+            //   predValues[startingPredIdx + exampleIdx * PRED_SIZE + 2]
+            // );
+          }
+          const score = [
+            scores[0].reduce((prev, cur) => prev + cur, 0) / scores[0].length,
+            scores[1].reduce((prev, cur) => prev + cur, 0) / scores[1].length,
+            //scores[2].reduce((prev, cur) => prev + cur, 0) / scores[2].length,
+          ];
+          const ex = examples[trialIdx * exampleIndices.length];
+          const step = isNum
+            ? ex.features.feature[featureName].floatList.value[0]
+            : [atob(ex.features.feature[featureName].bytesList.value[0])];
+          results[0].push({step: step, scalar: score[0]});
+          results[1].push({step: step, scalar: score[1]});
+          //results[2].push({step: step, scalar: score[2]});
+        }
+        return [[{'0': results[0], '1': results[1]}]];
+      },
+      convertExToTensor: function(ex) {
+        const vals = [];
+        vals.push(this.getValueListForFeature(ex, 'age'));
+        vals.push(this.getValueListForFeature(ex, 'amount_given_mpesa'));
+        vals.push(this.getValueListForFeature(ex, 'amount_received_mpesa'));
+        vals.push(this.getValueListForFeature(ex, 'amount_saved_mpesa'));
+        vals.push(this.getValueListForFeature(ex, 'asset_durable'));
+        vals.push(this.getValueListForFeature(ex, 'asset_land_owned_total'));
+        vals.push(this.getValueListForFeature(ex, 'asset_livestock'));
+        vals.push(this.getValueListForFeature(ex, 'asset_niceroof'));
+        vals.push(this.getValueListForFeature(ex, 'asset_phone'));
+        vals.push(this.getValueListForFeature(ex, 'asset_savings'));
+        vals.push(this.getValueListForFeature(ex, 'children'));
+        vals.push(this.getValueListForFeature(ex, 'cons_alcohol'));
+        vals.push(this.getValueListForFeature(ex, 'cons_allfood'));
+        vals.push(this.getValueListForFeature(ex, 'cons_ed'));
+        vals.push(this.getValueListForFeature(ex, 'cons_med_children'));
+        vals.push(this.getValueListForFeature(ex, 'cons_med_total'));
+        vals.push(this.getValueListForFeature(ex, 'cons_nondurable'));
+        vals.push(this.getValueListForFeature(ex, 'cons_other'));
+        vals.push(this.getValueListForFeature(ex, 'cons_ownfood'));
+        vals.push(this.getValueListForFeature(ex, 'cons_social'));
+        vals.push(this.getValueListForFeature(ex, 'cons_tobacco'));
+        vals.push(this.getValueListForFeature(ex, 'day_of_week'));
+        vals.push(this.getValueListForFeature(ex, 'durable_investment'));
+        vals.push(this.getValueListForFeature(ex, 'early_survey'));
+        vals.push(this.getValueListForFeature(ex, 'ed_expenses'));
+        vals.push(this.getValueListForFeature(ex, 'ed_expenses_perkid'));
+        vals.push(this.getValueListForFeature(ex, 'ed_sch_missedpc'));
+        vals.push(this.getValueListForFeature(ex, 'ed_schoolattend'));
+        vals.push(this.getValueListForFeature(ex, 'edu'));
+        vals.push(this.getValueListForFeature(ex, 'ent_animalstockrev'));
+        vals.push(this.getValueListForFeature(ex, 'ent_business'));
+        vals.push(this.getValueListForFeature(ex, 'ent_employees'));
+        vals.push(this.getValueListForFeature(ex, 'ent_farmexpenses'));
+        vals.push(this.getValueListForFeature(ex, 'ent_farmrevenue'));
+        vals.push(this.getValueListForFeature(ex, 'ent_nonag_flowcost'));
+        vals.push(this.getValueListForFeature(ex, 'ent_nonag_revenue'));
+        vals.push(this.getValueListForFeature(ex, 'ent_nonagbusiness'));
+        vals.push(this.getValueListForFeature(ex, 'ent_ownfarm'));
+        vals.push(this.getValueListForFeature(ex, 'ent_total_cost'));
+        vals.push(this.getValueListForFeature(ex, 'ent_wagelabor'));
+        vals.push(this.getValueListForFeature(ex, 'femaleres'));
+        vals.push(this.getValueListForFeature(ex, 'fs_adskipm_often'));
+        vals.push(this.getValueListForFeature(ex, 'fs_adwholed_often'));
+        vals.push(this.getValueListForFeature(ex, 'fs_chskipm_often'));
+        vals.push(this.getValueListForFeature(ex, 'fs_chwholed_often'));
+        vals.push(this.getValueListForFeature(ex, 'fs_enoughtom'));
+        vals.push(this.getValueListForFeature(ex, 'fs_meat'));
+        vals.push(this.getValueListForFeature(ex, 'fs_sleephun'));
+        vals.push(this.getValueListForFeature(ex, 'given_mpesa'));
+        vals.push(this.getValueListForFeature(ex, 'hh_children'));
+        vals.push(this.getValueListForFeature(ex, 'hh_totalmembers'));
+        vals.push(this.getValueListForFeature(ex, 'hhsize'));
+        vals.push(this.getValueListForFeature(ex, 'labor_primary'));
+        vals.push(this.getValueListForFeature(ex, 'married'));
+        vals.push(this.getValueListForFeature(ex, 'med_afford_port'));
+        vals.push(this.getValueListForFeature(ex, 'med_child_check'));
+        vals.push(this.getValueListForFeature(ex, 'med_healthconsult'));
+        vals.push(this.getValueListForFeature(ex, 'med_port_sick_child'));
+        vals.push(this.getValueListForFeature(ex, 'med_portion_sickinjured'));
+        vals.push(this.getValueListForFeature(ex, 'med_sickdays_hhave'));
+        vals.push(this.getValueListForFeature(ex, 'med_vacc_newborns'));
+        vals.push(this.getValueListForFeature(ex, 'net_mpesa'));
+        vals.push(this.getValueListForFeature(ex, 'nondurable_investment'));
+        vals.push(this.getValueListForFeature(ex, 'received_mpesa'));
+        vals.push(this.getValueListForFeature(ex, 'saved_mpesa'));
+        vals.push(this.getValueListForFeature(ex, 'village'));
+        vals.push(this.getValueListForFeature(ex, 'wage_expenditures'));
+ //vals.push(this.getValueListForFeature(ex, 'depressed'));
+
+        const arr = vals.reduce((a, b) => a.concat(b), []);
+        return tf.tensor1d(arr);
+      },
+
+      getValueListForFeature(ex, feat) {
+        return [ex.features.feature[feat].floatList.value[0]];
+      },
+    });
+  </script>
+</dom-module>
