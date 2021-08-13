@@ -1,0 +1,9713 @@
+[
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              74.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.4
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              214.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              30.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.1
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              24.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.3
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.6
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              174.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              11.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              46.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              208.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              19.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              14.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.3
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              64.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              310.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              61.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              58.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              289.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              30.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              24.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              188.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              11.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              10.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.71
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              55.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              10.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              5.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              1350.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              48.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              57.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              75.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              250.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              50.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.6
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              157.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              149.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              156.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              40.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.7
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              350.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              950.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              1500.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.3
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              16.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              418.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              28.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.3
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              156.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              12.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              15.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              48.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              527.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              178.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              250.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              40.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              98.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              31.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              54.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              218.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              19.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              165.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              34.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.5
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              505.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              205.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              140.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              53.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              210.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              32.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              70.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              862.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              76.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              180.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.75
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              160.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              82.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              127.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              202.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              78.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              41.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              144.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              36.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              58.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              123.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              56.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              48.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              196.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              39.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              298.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              102.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              630.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.1
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              58.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              158.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              37.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              43.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.6
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              74.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              234.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              16.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              19.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              65.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              202.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              13.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.6
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.4
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              160.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              52.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              97.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              85.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              78.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              410.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              59.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              57.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              186.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              191.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              37.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              41.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              32.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              32.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              14.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              219.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              95.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              235.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              13.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.5
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              575.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              24.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              216.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              349.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              105.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              19.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              186.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              166.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              397.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              31.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.3
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              184.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              32.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              7.1
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              3.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              258.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              80.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              113.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              37.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.3
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.4
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              195.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              41.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              40.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              231.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              16.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              55.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.6
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              51.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              230.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              24.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              46.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9470639032815201
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              5.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              599.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              43.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              66.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              45.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              170.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              14.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              55.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              9.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              272.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              79.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.1
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              50.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              202.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.66
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              72.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              148.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              16.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              8.4
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              200.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              91.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              101.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.02
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              279.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              36.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              486.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              34.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              48.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              621.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              110.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              176.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              312.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              308.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              405.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              168.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              30.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              194.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              32.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              36.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.6
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.92
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              180.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              34.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.6
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              56.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              17.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              8.8
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              239.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              43.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              185.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              45.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              189.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              63.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              87.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              75.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              6.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              3.6
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              458.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              198.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              143.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              22.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              12.6
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              962.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              53.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              41.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              47.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              265.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              40.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              28.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              159.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              10.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              12.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              46.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              290.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.0
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              226.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              135.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              58.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.4
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              915.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              142.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              48.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              175.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              24.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              54.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              28.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              316.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              5.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              179.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              74.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              272.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              24.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              98.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              30.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              174.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              47.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              50.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              218.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.96
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              165.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              15.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.92
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              49.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              198.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.5
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              183.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              57.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              46.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.4
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              298.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              509.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              623.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              3.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              4.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              460.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              152.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              231.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              198.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              86.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              150.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              152.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              90.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.1
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              68.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              1620.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              95.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              127.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.3
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              292.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              39.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.1
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              55.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              290.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              53.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              58.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              65.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              182.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              28.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              48.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              5.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              802.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              133.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              88.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              40.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              202.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              37.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.6
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              11.1
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              6.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              214.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              186.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              2.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              31.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              215.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              15.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              21.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              38.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              2.2
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              310.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              119.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              171.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              31.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              168.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              33.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.7
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              58.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              172.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              27.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              36.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              182.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              31.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              34.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              53.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              19.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              10.4
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              238.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              39.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              221.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.1
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.4
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              50.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              901.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              23.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              17.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.2
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              46.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.3
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.5
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              172.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              41.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              265.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              97.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              161.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.1
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              45.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              153.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              41.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              62.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              162.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              12.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              17.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              8.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              210.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              62.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              56.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              45.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.3
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              166.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              49.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.6
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              32.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              13.7
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              560.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              41.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              88.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              154.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              16.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              12.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              34.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              2.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              490.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              115.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              91.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              48.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              142.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              25.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.6
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              68.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              186.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              15.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.8
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              3.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              308.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              404.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              794.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              43.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              140.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              12.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              32.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              1.6
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              612.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              50.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              88.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.2
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.4
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              11.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              592.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              26.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              29.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.1
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              4.2
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              8.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              4.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              298.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              412.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              850.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.4
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              28.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              137.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              22.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              16.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              4.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              65.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              170.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              36.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              43.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              3.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              1.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.58
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              73.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.9
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              220.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              20.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              43.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.5
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              72.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              3.9
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              2.0
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              195.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              27.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              59.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.3
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.4
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.4
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              5.2
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              2.4
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              168.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              126.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              202.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.9
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              90.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              1.1
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.3
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              215.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              46.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              134.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.9
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              62.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "TWFsZQ=="
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              7.3
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              4.1
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              490.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              60.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              68.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              7.0
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.3
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.89
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              70.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.7
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              237.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              28.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              5.8
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              2.5
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.75
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "age": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "gender": {
+          "bytesList": {
+            "value": [
+              "RmVtYWxl"
+            ]
+          }
+        },
+        "totalBilirubin": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "directBilirubin": {
+          "floatList": {
+            "value": [
+              0.2
+            ]
+          }
+        },
+        "totalProteins": {
+          "floatList": {
+            "value": [
+              195.0
+            ]
+          }
+        },
+        "albumin": {
+          "floatList": {
+            "value": [
+              18.0
+            ]
+          }
+        },
+        "A_G_ratio": {
+          "floatList": {
+            "value": [
+              15.0
+            ]
+          }
+        },
+        "SGPT": {
+          "floatList": {
+            "value": [
+              6.7
+            ]
+          }
+        },
+        "SGOT": {
+          "floatList": {
+            "value": [
+              3.0
+            ]
+          }
+        },
+        "Alkphos": {
+          "floatList": {
+            "value": [
+              0.8
+            ]
+          }
+        },
+        "class": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  }
+]
