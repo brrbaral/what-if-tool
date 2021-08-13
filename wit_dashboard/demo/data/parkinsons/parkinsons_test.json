@@ -1,0 +1,6515 @@
+[
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            142.167
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            217.455
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            83.159
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0036899999999999997
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00157
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00203
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00471
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.015030000000000002
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.126
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00772
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.008879999999999999
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.013590000000000001
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.02316
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00839
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            25.175
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.565924
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.658245
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.340115
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.21018499999999998
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.205546
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.234589
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            136.926
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            159.866
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            131.276
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00293
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00118
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0015300000000000001
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00355
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01259
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.112
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00656
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00717
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.0114
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.01968
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00581
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            25.703
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.4606
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.646846
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.547148
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.152813
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.041277
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.138512
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            110.453
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            127.611
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            105.554
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00494
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            4e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00244
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00315
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00731
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.041280000000000004
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.379
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.02229
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.02592
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.03316
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.06688
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.02529
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            17.707
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.6534270000000001
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.706687
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.3336190000000006
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.322044
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.631793
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.228319
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            109.86
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            126.358
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            104.437
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.008740000000000001
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            8e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00398
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00539
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.01193
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.03209
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.307
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01789
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01992
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.02454
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.05368
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0118
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            20.767
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.5585859999999999
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.811843
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -4.333543
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.221727
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.014606
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.34483400000000003
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            151.737
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            190.204
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            129.859
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00314
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00135
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00162
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00406
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01469
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.132
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00728
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00886
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.0123
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.021840000000000002
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0057
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            24.151
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.39661
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.745957
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.486822
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.197919
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.449763
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.132703
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            129.336
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            139.867
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            118.604
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0049
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            4e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00165
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00183
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00495
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.024980000000000002
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.228
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01396
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.012190000000000001
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.019469999999999998
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.04188
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00484
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            25.429
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.420383
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.785714
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.836811
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.269866
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.223719
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.147491
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            169.774
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            191.759
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            151.451
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.01568
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            9e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00863
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00946
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.025889999999999996
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.08143
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.821
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.03804
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.05426
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.08807999999999999
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.11410999999999999
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0753
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            12.359
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.56161
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.793509
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -3.297668
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.414758
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            3.413649
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.45753299999999997
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            116.388
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            129.038
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            108.97
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00346
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0016899999999999999
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00213
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00507
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01725
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.155
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.008740000000000001
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.010209999999999999
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.013309999999999999
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.02623
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00415
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            26.143
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.361232
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.763242
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.016891
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.10925599999999999
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.0047189999999997
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.174429
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            117.226
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            123.925
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            106.656
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00417
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            4e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00186
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0027
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00558
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01909
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.171
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00864
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01223
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.01949
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.02592
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00955
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            23.079
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.6035149999999999
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.669565
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.61907
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.191576
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.027228
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.21572399999999997
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            197.076
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            206.896
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            192.055
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0028899999999999998
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            1e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0016600000000000002
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00168
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00498
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01098
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.097
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00563
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.0068
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.008020000000000001
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.016890000000000002
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00339
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            26.775
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.422229
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.741367
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -7.3483
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.177551
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            1.7438669999999998
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.085569
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            119.056
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            125.213
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            86.795
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00346
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0016899999999999999
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0017
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.0050799999999999994
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01201
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.106
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00633
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00701
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.00915
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.01898
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00903
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            23.389
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.470972
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.721308
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.436135
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.254909
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.51632
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.23220900000000003
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            95.385
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            102.145
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            90.264
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0060799999999999995
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            5.9999999999999995e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00331
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0033200000000000005
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.009940000000000001
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.03202
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.263
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01803
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01886
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.02455
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.054079999999999996
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.010620000000000001
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            21.875
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.644954
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.779612
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.1152120000000005
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.249494
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.017753
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.260015
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            120.078
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            126.632
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            105.667
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0027
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00116
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00135
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00349
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01022
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.09
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00476
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00588
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.00903
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.014280000000000001
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00487
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            26.369
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.491345
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.718839
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.892061
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.195976
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.108873
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.183572
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            148.79
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            158.359
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            138.99
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00309
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0015199999999999999
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00186
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00456
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01574
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.142
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00839
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.009559999999999999
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.013090000000000001
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.02518
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00488
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            24.412
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.402591
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.762508
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.311987
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.18245899999999998
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.251553
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.160306
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            95.73
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            132.068
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            91.754
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00551
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            5.9999999999999995e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00293
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0033200000000000005
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.0088
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.02093
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.191
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01073
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01277
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.017169999999999998
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.03218
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0107
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            21.812
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.6155510000000001
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.773587
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.498678
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.32776900000000003
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.322511
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.231571
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            166.888
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            198.966
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            79.512
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.006379999999999999
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            4e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0036799999999999997
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00351
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.011040000000000001
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.028569999999999998
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.257
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01547
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01859
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.02301
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.04641
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.01796
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            18.33
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.5851689999999999
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.7369640000000001
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.825257
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.11569700000000001
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            1.996146
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.196535
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            116.342
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            581.289
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            94.246
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00267
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00115
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00148
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00345
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.013
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.117
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.0063100000000000005
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.007890000000000001
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.01144
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.01892
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0068
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            25.023
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.528485
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.663884
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.359018
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.11663599999999999
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.152083
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.13886800000000002
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            198.764
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            396.961
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            74.904
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0074
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            4e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0037
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0039
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.011090000000000001
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.022959999999999998
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.241
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01265
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01321
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.015880000000000002
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.037939999999999995
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.07222999999999999
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            19.02
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.451221
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.6439560000000001
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.7445770000000005
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.207454
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.138608
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.123306
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            110.417
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            131.067
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            103.37
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00784
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            7e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00352
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00514
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.01056
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.03715
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.334
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.020319999999999998
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.02302
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.02802
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.06097
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00969
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            21.422
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.5417810000000001
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.821364
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -4.438453
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.238298
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            1.92294
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.335041
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            95.605
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            107.715
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            87.549
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00702
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            7e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00428
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00371
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.012830000000000001
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.031560000000000005
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.296
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01792
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01841
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.0219
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.053770000000000005
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.01825
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            19.659
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.576084
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.7787470000000001
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.132032
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.210458
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.232576
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.260633
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            139.173
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            179.139
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            76.556
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0039
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00165
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0020800000000000003
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00496
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01642
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.154
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00728
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00932
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.01797
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.021840000000000002
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.010409999999999999
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            24.889
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.430166
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.665833
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.660216999999999
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.25498899999999997
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.519422
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.199889
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            148.143
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            155.982
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            135.041
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00392
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0020399999999999997
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00231
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.0061200000000000004
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.0145
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.131
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00725
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.008759999999999999
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.012629999999999999
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.02175
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0054
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            23.683
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.398499
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.778349
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.7112050000000005
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.240875
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.845109
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.19272999999999998
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            186.695
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            211.961
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            149.442
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.01872
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            0.0001
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.01075
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.01154
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.03225
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.0583
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.784
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.026989999999999997
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.03714
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.06258999999999999
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.08096
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.10952
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            12.529
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.507826
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.762726
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -4.484303
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.340256
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.958815
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.301487
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            200.714
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            223.982
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            89.686
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00621
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00371
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00337
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.01112
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.02286
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.207
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01192
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01439
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.01852
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.03576
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00704
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            23.239
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.436084
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.727863
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.258319999999999
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.256454
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.550961
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.23251999999999998
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            128.001
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            138.052
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            122.08
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00436
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00137
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0016600000000000002
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00411
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.022969999999999997
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.21
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01323
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01072
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.01677
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.039689999999999996
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00481
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            24.692
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.459766
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.766204
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -7.072419
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.22043400000000002
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            1.9722970000000002
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.119308
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            170.368
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            268.796
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            79.543
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00571
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00232
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0026899999999999997
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.006959999999999999
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.03273
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.281
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.017130000000000003
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01964
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.028239999999999998
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.05139
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.02485
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            18.54
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.677131
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.6850569999999999
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -4.796844999999999
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.39774899999999996
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.9637990000000003
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.277227
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            154.003
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            160.267
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            128.621
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00183
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            1e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0007599999999999999
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.001
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00229
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.0103
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.094
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00469
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.0058200000000000005
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.008709999999999999
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.01406
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00243
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            28.409
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.263654
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.691483
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -7.1115759999999995
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.14478
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.065477
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.093193
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            113.715
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            116.443
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            96.913
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00349
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0017100000000000001
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00203
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00514
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.014719999999999999
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.133
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00748
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00905
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.011479999999999999
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.02245
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0047799999999999995
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            26.547
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.380253
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.7667
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.943501
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.19215
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            1.852542
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.179677
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            201.464
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            210.565
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            195.708
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00198
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            1e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00105
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00115
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00314
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.011940000000000001
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.107
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00586
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.0076
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.00957
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.017580000000000002
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00135
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            31.732
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.344252
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.742737
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -7.777685000000001
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.170183
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.447064
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.05761
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            201.774
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            262.707
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            78.228
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.006940000000000001
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00412
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00396
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.01235
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.02574
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.255
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01454
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.015819999999999997
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.017580000000000002
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.04363
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.044410000000000005
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            19.368
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            0.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.508479
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.683761
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.934474000000001
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.15989
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.316346
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.11283800000000001
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            166.605
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            206.008
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            78.032
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00742
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            4e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00387
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.004529999999999999
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.011609999999999999
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.0664
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.634
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.0365
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.04282
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.05114
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.10949
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.08725
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            11.744
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.65341
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.733165
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -4.508984
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.389232
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            3.317586
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.301952
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            122.4
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            148.65
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            113.819
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00968
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            8e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00465
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.006959999999999999
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.013940000000000001
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.06134
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.626
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.03134
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.04518
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.043680000000000004
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.09402999999999999
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.01929
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            19.085
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.458359
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.8195209999999999
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -4.0751919999999995
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.33559
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.486855
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.368674
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            116.879
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            131.897
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            108.153
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00788
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            7e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0033399999999999997
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0049299999999999995
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.010029999999999999
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.02645
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.265
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.013940000000000001
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01625
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.02137
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.04183
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.007859999999999999
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            22.603
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.540049
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.8134319999999999
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -4.476755000000001
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.262633
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            1.8270119999999999
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.32619699999999996
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            148.272
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            164.989
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            142.299
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0045899999999999995
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0025
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00256
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.0075
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.0419
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.383
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.02383
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.02521
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.030510000000000002
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.0715
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.01914
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            18.78
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.45444399999999996
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.734504
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.952058
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.08784
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.344336
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.18648900000000002
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            151.884
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            157.765
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            133.751
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.0025800000000000003
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00115
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00122
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00346
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.0145
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.137
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.00633
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00788
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.01267
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.01898
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00659
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            26.833
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.393563
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.700246
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.600022999999999
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.24917199999999998
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.499148
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.105306
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            177.876
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            192.921
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            168.013
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00411
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00233
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0024100000000000002
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.007
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.02126
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.189
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.01154
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.01347
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.01612
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.03463
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00586
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            23.216
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.360148
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.778834
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.149653
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.21803699999999998
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.477082
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.165827
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            116.014
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            141.781
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            110.655
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.01284
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            0.00011
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00655
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.00908
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.01966
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.06425
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.584
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.0349
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.04825
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.04465
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.1047
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.017669999999999998
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            19.649
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.41735600000000006
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.823484
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -3.747787
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.234513
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.33218
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.41033500000000006
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            155.078
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            163.736
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            144.148
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00168
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            1e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.0006799999999999999
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0009199999999999999
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.0020399999999999997
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.01064
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.097
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.005220000000000001
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.00632
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.00928
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.01567
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.00233
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            29.746
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.334171
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.67793
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -6.9812009999999995
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.18455
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.1299240000000004
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.106802
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "features": {
+            "feature": {
+                "MDVP:Fo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            173.917
+                        ]
+                    }
+                },
+                "MDVP:Fhi(Hz)": {
+                    "floatList": {
+                        "value": [
+                            192.735
+                        ]
+                    }
+                },
+                "MDVP:Flo(Hz)": {
+                    "floatList": {
+                        "value": [
+                            86.18
+                        ]
+                    }
+                },
+                "MDVP:Jitter(%)": {
+                    "floatList": {
+                        "value": [
+                            0.00476
+                        ]
+                    }
+                },
+                "MDVP:Jitter(Abs)": {
+                    "floatList": {
+                        "value": [
+                            2.9999999999999997e-05
+                        ]
+                    }
+                },
+                "MDVP:RAP": {
+                    "floatList": {
+                        "value": [
+                            0.00221
+                        ]
+                    }
+                },
+                "MDVP:PPQ": {
+                    "floatList": {
+                        "value": [
+                            0.0025800000000000003
+                        ]
+                    }
+                },
+                "Jitter:DDP": {
+                    "floatList": {
+                        "value": [
+                            0.00663
+                        ]
+                    }
+                },
+                "MDVP:Shimmer": {
+                    "floatList": {
+                        "value": [
+                            0.04192
+                        ]
+                    }
+                },
+                "MDVP:Shimmer(dB)": {
+                    "floatList": {
+                        "value": [
+                            0.364
+                        ]
+                    }
+                },
+                "Shimmer:APQ3": {
+                    "floatList": {
+                        "value": [
+                            0.02187
+                        ]
+                    }
+                },
+                "Shimmer:APQ5": {
+                    "floatList": {
+                        "value": [
+                            0.0247
+                        ]
+                    }
+                },
+                "MDVP:APQ": {
+                    "floatList": {
+                        "value": [
+                            0.03772
+                        ]
+                    }
+                },
+                "Shimmer:DDA": {
+                    "floatList": {
+                        "value": [
+                            0.06562
+                        ]
+                    }
+                },
+                "NHR": {
+                    "floatList": {
+                        "value": [
+                            0.0184
+                        ]
+                    }
+                },
+                "HNR": {
+                    "floatList": {
+                        "value": [
+                            20.422
+                        ]
+                    }
+                },
+                "status": {
+                    "floatList": {
+                        "value": [
+                            1.0
+                        ]
+                    }
+                },
+                "RPDE": {
+                    "floatList": {
+                        "value": [
+                            0.5372640000000001
+                        ]
+                    }
+                },
+                "DFA": {
+                    "floatList": {
+                        "value": [
+                            0.686894
+                        ]
+                    }
+                },
+                "spread1": {
+                    "floatList": {
+                        "value": [
+                            -5.248776
+                        ]
+                    }
+                },
+                "spread2": {
+                    "floatList": {
+                        "value": [
+                            0.210279
+                        ]
+                    }
+                },
+                "D2": {
+                    "floatList": {
+                        "value": [
+                            2.547508
+                        ]
+                    }
+                },
+                "PPE": {
+                    "floatList": {
+                        "value": [
+                            0.253556
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]

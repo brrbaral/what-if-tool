@@ -1,0 +1,3412 @@
+[
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              75.65
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              19.34
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              64.15
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              56.31
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              95.9
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              69.55
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              57.52
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              33.65
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              50.91
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              23.88
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              140.98
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              148.75
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              70.4
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              13.47
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              61.2
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              56.93
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              102.34
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              25.54
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              81.08
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              21.26
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              78.77
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              59.83
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              90.07
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              49.16
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              67.41
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              17.44
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              60.14
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              49.97
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              111.12
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              33.16
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              48.92
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              19.96
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              40.26
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              28.95
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              119.32
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              8.03
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              71.0
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              37.52
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              84.54
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              33.49
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              125.16
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              67.77
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              68.72
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              49.43
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              68.06
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              19.29
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              125.02
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              54.69
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              33.79
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              3.68
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              25.5
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              30.11
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              128.33
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -1.78
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              79.48
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              26.73
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              70.65
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              52.74
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              118.59
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              61.7
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              36.42
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              13.88
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              20.24
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              22.54
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              126.08
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              0.18
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              65.61
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              23.14
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              62.58
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              42.47
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              124.13
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -4.08
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              68.61
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              15.08
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              63.01
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              53.53
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              123.43
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              39.5
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              77.24
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              16.74
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              49.78
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              60.5
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              110.69
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              39.79
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              43.35
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              7.47
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              28.07
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              35.88
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              112.78
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              5.75
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              67.26
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              7.19
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              51.7
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              60.07
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              97.8
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              42.14
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              41.19
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              5.79
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              42.87
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              35.39
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              103.35
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              27.66
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              54.14
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              11.94
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              43.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              42.21
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              122.21
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              0.15
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              54.5
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              6.82
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              47.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              47.68
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              111.79
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -4.41
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              58.52
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              13.92
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              41.47
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              44.6
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              115.51
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              30.39
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              56.45
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              19.44
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              43.58
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              37.0
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              139.19
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -1.86
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              58.6
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              -0.26
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              51.5
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              58.86
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              102.04
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              28.06
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              66.51
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              20.9
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              31.73
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              45.61
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              128.9
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              1.52
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              83.93
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              41.29
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              62.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              42.65
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              115.01
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              26.59
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              35.88
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              1.11
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              43.46
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              34.77
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              126.92
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -1.63
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              48.26
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              16.42
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              36.33
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              31.84
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              94.88
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              28.34
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              69.63
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              21.12
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              52.77
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              48.5
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              116.8
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              54.82
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              89.83
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              22.64
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              90.56
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              67.2
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              100.5
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              3.04
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              76.15
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              21.94
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              82.96
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              54.21
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              123.93
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              10.43
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              38.05
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              8.3
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              26.24
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              29.74
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              123.8
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              3.89
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              45.08
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              12.31
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              44.58
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              32.77
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              147.89
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -8.94
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              70.48
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              12.49
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              62.42
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              57.99
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              114.19
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              56.9
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              129.83
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              8.4
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              48.38
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              121.43
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              107.69
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              418.54
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              87.68
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              20.37
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              93.82
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              67.31
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              120.94
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              76.73
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              63.17
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              6.33
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              63.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              56.84
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              110.64
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              42.61
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              60.75
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              15.75
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              43.2
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              45.0
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              113.05
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              31.69
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              38.7
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              13.44
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              31.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              25.25
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              123.16
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              1.43
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              50.16
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              -2.97
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              42.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              53.13
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              131.8
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -8.29
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              74.57
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              15.72
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              58.62
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              58.84
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              105.42
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              0.6
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              88.62
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              29.09
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              47.56
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              59.53
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              121.76
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              51.81
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              58.83
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              37.58
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              125.74
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              21.25
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              135.63
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              117.31
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              40.25
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              13.92
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              25.12
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              26.33
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              130.33
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              2.23
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              58.78
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              7.67
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              53.34
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              51.12
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              98.5
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              51.58
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              43.2
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              19.66
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              35.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              23.54
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              124.85
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -2.92
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              64.31
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              26.33
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              50.96
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              37.98
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              106.18
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              3.12
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              43.92
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              14.18
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              37.83
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              29.74
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              134.46
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              6.45
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              63.36
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              20.02
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              67.5
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              43.34
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              131.0
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              37.56
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              31.23
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              17.72
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              15.5
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              13.52
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              120.06
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              0.5
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              68.83
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              22.22
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              50.09
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              46.61
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              105.99
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -3.53
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              48.8
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              18.02
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              52.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              30.78
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              139.15
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              10.44
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              63.79
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              21.35
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              66.0
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              42.45
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              119.55
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              12.38
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              84.97
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              33.02
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              60.86
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              51.95
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              125.66
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              74.33
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              65.01
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              9.84
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              57.74
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              55.18
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              94.74
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              49.7
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              52.86
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              9.41
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              46.99
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              43.45
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              123.09
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              1.86
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              64.62
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              15.23
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              67.63
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              49.4
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              90.3
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              31.33
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              63.83
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              20.36
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              54.55
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              43.47
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              112.31
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -0.62
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              59.79
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              17.88
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              59.21
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              41.91
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              119.32
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              22.12
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              74.98
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              14.92
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              53.73
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              60.05
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              105.65
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              1.59
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              59.17
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              14.56
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              43.2
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              44.6
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              121.04
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              2.83
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              43.44
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              10.1
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              36.03
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              33.34
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              137.44
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -3.11
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              66.88
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              24.89
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              49.28
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              41.99
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              113.48
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              -2.01
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "features": {
+      "feature": {
+        "pelvic_incidence": {
+          "floatList": {
+            "value": [
+              74.01
+            ]
+          }
+        },
+        "pelvic_tilt": {
+          "floatList": {
+            "value": [
+              21.12
+            ]
+          }
+        },
+        "lumbar_lordosis_angle": {
+          "floatList": {
+            "value": [
+              57.38
+            ]
+          }
+        },
+        "sacral_slope": {
+          "floatList": {
+            "value": [
+              52.88
+            ]
+          }
+        },
+        "pelvic_radius": {
+          "floatList": {
+            "value": [
+              120.21
+            ]
+          }
+        },
+        "degree_spondylolisthesis": {
+          "floatList": {
+            "value": [
+              74.56
+            ]
+          }
+        },
+        "attribute": {
+          "floatList": {
+            "value": [
+              1.0
+            ]
+          }
+        }
+      }
+    }
+  }
+]
